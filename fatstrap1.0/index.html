@@ -14,7 +14,7 @@
   
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
 
 		<div class="row">
 			
@@ -25,22 +25,41 @@
 						</div>
 						
 							<hr>
-							
+				
+				<div class="row">
+				
+				<div class="fat-3 columns bs-docs-sidebar">
+					
+					 <ul class="nav nav-list bs-docs-sidenav">
+          <li><a href="#our-plate"><i class="icon-chevron-right"></i>Our Plate</a></li>
+          <li><a href="#our-columns"><i class="icon-chevron-right"></i>Our Columns</a></li>
+          <li><a href="#buttons"><i class="icon-chevron-right"></i> Buttons</a></li>
+          <li><a href="#html-template"><i class="icon-chevron-right"></i> HTML template</a></li>
+          <li><a href="#examples"><i class="icon-chevron-right"></i> Examples</a></li>
+          <li><a href="#what-next"><i class="icon-chevron-right"></i> What next?</a></li>
+        </ul>
+					
+				</div>
+						
+					<div class="fat-9 columns">	
 	
 	<div class="row">
 		<div class="fat-12 columns">
+			<div id="our-plate">
 			<h1>Our Plate</h1>
 				<p>This is the recipe for 1.0.0 on our plate, Mmmm...</p>
+		</div>
 		</div>
 	</div>							
 							
 
 	<div class="row">
-		<div class="fat-12 columns">
-			<div class="boxit">
-				<h1>Fat 12 columns</h1>
-					</div>
-						</div>		
+		<div id="our-columns">
+			<div class="fat-12 columns">
+				<div class="boxit">
+					<h1>Fat 12 columns</h1>
+						</div>
+							</div>		
 		
 			<div class="fat-5 columns">
 				<div class="boxit">
@@ -54,6 +73,7 @@
 							</div>
 								</div>
 									</div>
+										</div>
 									
 	<div class="row">
 		
@@ -70,7 +90,7 @@
 		
 		<div class="fat-12 columns">
 			<div class="boxit">
-				
+				<div id="buttons">
         <section id="buttons">
           <div class="page-header">
             <h1>Buttons</h1>
@@ -231,6 +251,7 @@
 </pre>
           <p>As a best practice, try to match the element for your context to ensure matching cross-browser rendering. If you have an <code>input</code>, use an <code>&lt;input type="submit"&gt;</code> for your button.</p>
 
+</div>
         </section>
 
 
