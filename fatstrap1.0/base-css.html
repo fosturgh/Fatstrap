@@ -5,13 +5,14 @@
 <head>
 	<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>Fat Strap 1.0</title>
+  <title>Fat Strap</title>
 
   
-  <link rel="stylesheet" href="css/fatstrap.css" />
-  <link rel="stylesheet" href="css/topping.css" />
-  <link href="js/google-code-prettify/prettify.css" rel="stylesheet">
-  
+ 	<!-- El styles -->
+    <link rel="stylesheet" href="css/fatstrap.css" />
+  	<link rel="stylesheet" href="css/topping.css" />
+  	<link href="js/google-code-prettify/prettify.css" rel="stylesheet">
+
     <!-- El HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
@@ -39,7 +40,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="./index.html">Bootstrap</a>
+          <a class="brand" href="./index.html">Fatstrap</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="">
@@ -79,7 +80,7 @@
 </header>
 
 
-  <div class="row">
+  <div class="container">
 
     <!-- Docs nav
     ================================================== -->
@@ -709,8 +710,8 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
           <p>Use contextual classes to color table rows.</p>
           <table class="table table-bordered table-striped">
             <colgroup>
-              <col class="span1">
-              <col class="span7">
+              <col class="fat-1">
+              <col class="fat-7">
             </colgroup>
             <thead>
               <tr>
@@ -802,8 +803,8 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
           <p>List of supported table HTML elements and how they should be used.</p>
           <table class="table table-bordered table-striped">
             <colgroup>
-              <col class="span1">
-              <col class="span7">
+              <col class="fat-1">
+              <col class="fat-7">
             </colgroup>
             <thead>
               <tr>
@@ -1161,21 +1162,21 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
           <form class="bs-docs-example">
             <div class="input-prepend">
               <span class="add-on">@</span>
-              <input class="span2" id="prependedInput" type="text" placeholder="Username">
+              <input class="fat-2" id="prependedInput" type="text" placeholder="Username">
             </div>
             <br>
             <div class="input-append">
-              <input class="span2" id="appendedInput" type="text">
+              <input class="fat-2" id="appendedInput" type="text">
               <span class="add-on">.00</span>
             </div>
           </form>
 <pre class="prettyprint linenums">
 &lt;div class="input-prepend"&gt;
   &lt;span class="add-on"&gt;@&lt;/span&gt;
-  &lt;input class="span2" id="prependedInput" type="text" placeholder="Username"&gt;
+  &lt;input class="fat-2" id="prependedInput" type="text" placeholder="Username"&gt;
 &lt;/div&gt;
 &lt;div class="input-append"&gt;
-  &lt;input class="span2" id="appendedInput" type="text"&gt;
+  &lt;input class="fat-2" id="appendedInput" type="text"&gt;
   &lt;span class="add-on"&gt;.00&lt;/span&gt;
 &lt;/div&gt;
 </pre>
@@ -1185,14 +1186,14 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
           <form class="bs-docs-example form-inline">
             <div class="input-prepend input-append">
               <span class="add-on">$</span>
-              <input class="span2" id="appendedPrependedInput" type="text">
+              <input class="fat-2" id="appendedPrependedInput" type="text">
               <span class="add-on">.00</span>
             </div>
           </form>
 <pre class="prettyprint linenums">
 &lt;div class="input-prepend input-append"&gt;
   &lt;span class="add-on"&gt;$&lt;/span&gt;
-  &lt;input class="span2" id="appendedPrependedInput" type="text"&gt;
+  &lt;input class="fat-2" id="appendedPrependedInput" type="text"&gt;
   &lt;span class="add-on"&gt;.00&lt;/span&gt;
 &lt;/div&gt;
 </pre>
@@ -1201,26 +1202,26 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
           <p>Instead of a <code>&lt;span&gt;</code> with text, use a <code>.btn</code> to attach a button (or two) to an input.</p>
           <form class="bs-docs-example">
             <div class="input-append">
-              <input class="span2" id="appendedInputButton" type="text">
+              <input class="fat-2" id="appendedInputButton" type="text">
               <button class="btn" type="button">Go!</button>
             </div>
           </form>
 <pre class="prettyprint linenums">
 &lt;div class="input-append"&gt;
-  &lt;input class="span2" id="appendedInputButton" type="text"&gt;
+  &lt;input class="fat-2" id="appendedInputButton" type="text"&gt;
   &lt;button class="btn" type="button"&gt;Go!&lt;/button&gt;
 &lt;/div&gt;
 </pre>
           <form class="bs-docs-example">
             <div class="input-append">
-              <input class="span2" id="appendedInputButtons" type="text">
+              <input class="fat-2" id="appendedInputButtons" type="text">
               <button class="btn" type="button">Search</button>
               <button class="btn" type="button">Options</button>
             </div>
           </form>
 <pre class="prettyprint linenums">
 &lt;div class="input-append"&gt;
-  &lt;input class="span2" id="appendedInputButtons" type="text"&gt;
+  &lt;input class="fat-2" id="appendedInputButtons" type="text"&gt;
   &lt;button class="btn" type="button"&gt;Search&lt;/button&gt;
   &lt;button class="btn" type="button"&gt;Options&lt;/button&gt;
 &lt;/div&gt;
@@ -1230,7 +1231,7 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
           <p></p>
           <form class="bs-docs-example">
             <div class="input-append">
-              <input class="span2" id="appendedDropdownButton" type="text">
+              <input class="fat-2" id="appendedDropdownButton" type="text">
               <div class="btn-group">
                 <button class="btn dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
                 <ul class="dropdown-menu">
@@ -1245,7 +1246,7 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
           </form>
 <pre class="prettyprint linenums">
 &lt;div class="input-append"&gt;
-  &lt;input class="span2" id="appendedDropdownButton" type="text"&gt;
+  &lt;input class="fat-2" id="appendedDropdownButton" type="text"&gt;
   &lt;div class="btn-group"&gt;
     &lt;button class="btn dropdown-toggle" data-toggle="dropdown"&gt;
       Action
@@ -1270,7 +1271,7 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
                   <li><a href="#">Separated link</a></li>
                 </ul>
               </div><!-- /btn-group -->
-              <input class="span2" id="prependedDropdownButton" type="text">
+              <input class="fat-2" id="prependedDropdownButton" type="text">
             </div><!-- /input-prepend -->
           </form>
 <pre class="prettyprint linenums">
@@ -1284,7 +1285,7 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
       ...
     &lt;/ul&gt;
   &lt;/div&gt;
-  &lt;input class="span2" id="prependedDropdownButton" type="text"&gt;
+  &lt;input class="fat-2" id="prependedDropdownButton" type="text"&gt;
 &lt;/div&gt;
 </pre>
 
@@ -1300,7 +1301,7 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
                   <li><a href="#">Separated link</a></li>
                 </ul>
               </div><!-- /btn-group -->
-              <input class="span2" id="appendedPrependedDropdownButton" type="text">
+              <input class="fat-2" id="appendedPrependedDropdownButton" type="text">
               <div class="btn-group">
                 <button class="btn dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
                 <ul class="dropdown-menu">
@@ -1324,7 +1325,7 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
       ...
     &lt;/ul&gt;
   &lt;/div&gt;
-  &lt;input class="span2" id="appendedPrependedDropdownButton" type="text"&gt;
+  &lt;input class="fat-2" id="appendedPrependedDropdownButton" type="text"&gt;
   &lt;div class="btn-group"&gt;
     &lt;button class="btn dropdown-toggle" data-toggle="dropdown"&gt;
       Action
@@ -1388,23 +1389,23 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
           <h4>Search form</h4>
           <form class="bs-docs-example form-search">
             <div class="input-append">
-              <input type="text" class="span2 search-query">
+              <input type="text" class="fat-2 search-query">
               <button type="submit" class="btn">Search</button>
             </div>
             <div class="input-prepend">
               <button type="submit" class="btn">Search</button>
-              <input type="text" class="span2 search-query">
+              <input type="text" class="fat-2 search-query">
             </div>
           </form>
 <pre class="prettyprint linenums">
 &lt;form class="form-search"&gt;
   &lt;div class="input-append"&gt;
-    &lt;input type="text" class="span2 search-query"&gt;
+    &lt;input type="text" class="fat-2 search-query"&gt;
     &lt;button type="submit" class="btn"&gt;Search&lt;/button&gt;
   &lt;/div&gt;
   &lt;div class="input-prepend"&gt;
     &lt;button type="submit" class="btn"&gt;Search&lt;/button&gt;
-    &lt;input type="text" class="span2 search-query"&gt;
+    &lt;input type="text" class="fat-2 search-query"&gt;
   &lt;/div&gt;
 &lt;/form&gt;
 </pre>
@@ -1447,27 +1448,27 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
           </p>
 
           <h4>Grid sizing</h4>
-          <p>Use <code>.span1</code> to <code>.span12</code> for inputs that match the same sizes of the grid columns.</p>
+          <p>Use <code>.fat-1</code> to <code>.fat-12</code> for inputs that match the same sizes of the grid columns.</p>
           <form class="bs-docs-example" style="padding-bottom: 15px;">
             <div class="controls docs-input-sizes">
-              <input class="span1" type="text" placeholder=".span1">
-              <input class="span2" type="text" placeholder=".span2">
-              <input class="span3" type="text" placeholder=".span3">
-              <select class="span1">
+              <input class="fat-1" type="text" placeholder=".fat-1">
+              <input class="fat-2" type="text" placeholder=".fat-2">
+              <input class="fat-3" type="text" placeholder=".fat-3">
+              <select class="fat-1">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
                 <option>4</option>
                 <option>5</option>
               </select>
-              <select class="span2">
+              <select class="fat-2">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
                 <option>4</option>
                 <option>5</option>
               </select>
-              <select class="span3">
+              <select class="fat-3">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -1477,16 +1478,16 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
             </div>
           </form>
 <pre class="prettyprint linenums">
-&lt;input class="span1" type="text" placeholder=".span1"&gt;
-&lt;input class="span2" type="text" placeholder=".span2"&gt;
-&lt;input class="span3" type="text" placeholder=".span3"&gt;
-&lt;select class="span1"&gt;
+&lt;input class="fat-1" type="text" placeholder=".fat-1"&gt;
+&lt;input class="fat-2" type="text" placeholder=".fat-2"&gt;
+&lt;input class="fat-3" type="text" placeholder=".fat-3"&gt;
+&lt;select class="fat-1"&gt;
   ...
 &lt;/select&gt;
-&lt;select class="span2"&gt;
+&lt;select class="fat-2"&gt;
   ...
 &lt;/select&gt;
-&lt;select class="span3"&gt;
+&lt;select class="fat-3"&gt;
   ...
 &lt;/select&gt;
 </pre>
@@ -1494,32 +1495,32 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
           <p>For multiple grid inputs per line, <strong>use the <code>.controls-row</code> modifier class for proper spacing</strong>. It floats the inputs to collapse white-space, sets the proper margins, and clears the float.</p>
           <form class="bs-docs-example" style="padding-bottom: 15px;">
             <div class="controls">
-              <input class="span5" type="text" placeholder=".span5">
+              <input class="fat-5" type="text" placeholder=".fat-5">
             </div>
             <div class="controls controls-row">
-              <input class="span4" type="text" placeholder=".span4">
-              <input class="span1" type="text" placeholder=".span1">
+              <input class="fat-4" type="text" placeholder=".fat-4">
+              <input class="fat-1" type="text" placeholder=".fat-1">
             </div>
             <div class="controls controls-row">
-              <input class="span3" type="text" placeholder=".span3">
-              <input class="span2" type="text" placeholder=".span2">
+              <input class="fat-3" type="text" placeholder=".fat-3">
+              <input class="fat-2" type="text" placeholder=".fat-2">
             </div>
             <div class="controls controls-row">
-              <input class="span2" type="text" placeholder=".span2">
-              <input class="span3" type="text" placeholder=".span3">
+              <input class="fat-2" type="text" placeholder=".fat-2">
+              <input class="fat-3" type="text" placeholder=".fat-3">
             </div>
             <div class="controls controls-row">
-              <input class="span1" type="text" placeholder=".span1">
-              <input class="span4" type="text" placeholder=".span4">
+              <input class="fat-1" type="text" placeholder=".fat-1">
+              <input class="fat-4" type="text" placeholder=".fat-4">
             </div>
           </form>
 <pre class="prettyprint linenums">
 &lt;div class="controls"&gt;
-  &lt;input class="span5" type="text" placeholder=".span5"&gt;
+  &lt;input class="fat-5" type="text" placeholder=".fat-5"&gt;
 &lt;/div&gt;
 &lt;div class="controls controls-row"&gt;
-  &lt;input class="span4" type="text" placeholder=".span4"&gt;
-  &lt;input class="span1" type="text" placeholder=".span1"&gt;
+  &lt;input class="fat-4" type="text" placeholder=".fat-4"&gt;
+  &lt;input class="fat-1" type="text" placeholder=".fat-1"&gt;
 &lt;/div&gt;
 ...
 </pre>
@@ -1587,10 +1588,10 @@ For example, &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; should be wrapped 
           <p>Style inputs via default browser functionality with <code>:invalid</code>. Specify a <code>type</code>, add the <code>required</code> attribute if the field is not optional, and (if applicable) specify a <code>pattern</code>.</p>
           <p>This is not available in versions of Internet Explorer 7-9 due to lack of support for CSS pseudo selectors.</p>
           <form class="bs-docs-example form-inline">
-            <input class="span3" type="email" placeholder="test@example.com" required>
+            <input class="fat-3" type="email" placeholder="test@example.com" required>
           </form>
 <pre class="prettyprint linenums">
-&lt;input class="span3" type="email" required&gt;
+&lt;input class="fat-3" type="email" required&gt;
 </pre>
 
           <h3>Disabled inputs</h3>
