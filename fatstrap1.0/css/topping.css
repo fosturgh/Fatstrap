@@ -1,3 +1,35 @@
+::selection {
+background: #fe57a1;
+color: #fff;
+text-shadow: none;}
+
+
+/* Banner @ Top ( Sunset + Gaussian Blur )
+-------------------------------------------------- */
+
+.gaussian { background: url(../img/gaussian.png) no-repeat center top;
+			-webkit-background-size: 100% 490px;
+			-o-background-size: 100% 490px;
+			background-size: 100% 490px;
+			height: 490px;  }
+			
+.banner-fat { display: table;
+			  margin: auto;
+			  padding-top: 5%; }
+			  
+.gaussian .btn { display: table;
+				 margin: auto; }	
+				 
+				 
+				 
+				 
+				 
+.bodarr { height: 1000px; }				 		
+			
+		
+			
+		
+
 
 
 /* Body and structure
@@ -5,6 +37,7 @@
 
 body {
   position: relative;
+  background:url(../img/ps_neutral.png);
   
 }
 
@@ -25,20 +58,34 @@ body > .navbar {
 
 /* Change the docs' brand */
 body > .navbar .brand {
-  padding-right: 0;
-  padding-left: 0;
-  margin-left: 20px;
-  float: right;
-  font-weight: bold;
-  color: #000;
-  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
-  -webkit-transition: all .2s linear;
-     -moz-transition: all .2s linear;
-          transition: all .2s linear;
-}
+	padding-right: 0;
+	padding-left: 0;
+	float: left;
+	font-weight: bold;
+	color: #000;
+	background: url(../img/logo.svg) no-repeat;
+	width: 152px;
+	margin-right: 20px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-top: 1%;
+	margin-bottom: 1%;}
 body > .navbar .brand:hover {
-  text-decoration: none;
-  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
+  padding-right: 0;
+	padding-left: 0;
+	float: left;
+	font-weight: bold;
+	color: #000;
+	background: url(../img/logo3.svg) no-repeat;
+	width: 152px;
+	margin-right: 20px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-top: 1%;
+	margin-bottom: 1%;
+
 }
 
 
@@ -296,7 +343,6 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 .footer {
   text-align: center;
   padding: 30px 0;
-  margin-top: 70px;
   border-top: 1px solid #e5e5e5;
   background-color: #f5f5f5;
 }
@@ -1049,3 +1095,6 @@ form.bs-docs-example {
     padding-bottom: 20px;
   }
 }
+
+
+

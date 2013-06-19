@@ -5,268 +5,97 @@
 <head>
 	<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>Fat Strap 1.0</title>
+  <title>Fat Strap</title>
 
   
-  <link rel="stylesheet" href="css/fatstrap.css" />
-  <link rel="stylesheet" href="css/topping.css" />
-  <link href="js/google-code-prettify/prettify.css" rel="stylesheet">
+ 	<!-- El styles -->
+    <link rel="stylesheet" href="css/fatstrap.css" />
+  	<link rel="stylesheet" href="css/topping.css" />
+  	<link href="js/google-code-prettify/prettify.css" rel="stylesheet">
+
+    <!-- El HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- El fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+   
+  </head>
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+<!-- Navbar
+   ================================================== -->
+   <div class="navbar navbar-inverse navbar-fixed-top">
+     <div class="navbar-inner">
+       <div class="row">
+         <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="brand" href="./index.html">Fatstrap</a>
+         <div class="nav-collapse collapse">
+           <ul class="nav">
+             <li class="">
+               <a href="./index.html">Home</a>
+             </li>
+             <li class="">
+               <a href="./getting-started.html">Get started</a>
+             </li>
+             <li class="">
+               <a href="./scaffolding.html">Scaffolding</a>
+             </li>
+             <li class="active">
+               <a href="./base-css.html">Base CSS</a>
+             </li>
+             <li class="">
+               <a href="./components.html">Components</a>
+             </li>
+             <li class="">
+               <a href="./javascript.html">JavaScript</a>
+             </li>
+            
+           </ul>
+         </div>
+       </div>
+     </div>
+   </div>
+
+<!-- Subhead
+================================================== -->
+<header class="gaussian" id="overview">
+  <div class="row">
+   <div class="banner-fat"><img src="img/fatstrap.png"></div>
+    <p class="lead fat-8 columns">We couldn’t decide between Foundation & Bootstrap so we combined them into the code masterclass....
+Our framework is made up of other open source documents, we’ve just gone back to the drawing board with them and taken our favourite components and made them into this wonderful code buffet. Feel free to download Fatstrap and email with us or get in touch via skype if you’re having any problems with anything!</p>
   
-
-</head>
-<body data-spy="scroll" data-target=".bs-docs-sidebar">
-
-		<div class="row">
-			
-			<div class="skinny-8 skinny-centered columns">
-				<img src="img/logo.png">
-					</div>	
-					
-						</div>
-						
-							<hr>
-				
-				<div class="row">
-				
-				<div class="fat-3 columns bs-docs-sidebar">
-					
-					 <ul class="nav nav-list bs-docs-sidenav">
-          <li><a href="#our-plate"><i class="icon-chevron-right"></i>Our Plate</a></li>
-          <li><a href="#our-columns"><i class="icon-chevron-right"></i>Our Columns</a></li>
-          <li><a href="#buttons"><i class="icon-chevron-right"></i> Buttons</a></li>
-          <li><a href="#html-template"><i class="icon-chevron-right"></i> HTML template</a></li>
-          <li><a href="#examples"><i class="icon-chevron-right"></i> Examples</a></li>
-          <li><a href="#what-next"><i class="icon-chevron-right"></i> What next?</a></li>
-        </ul>
-					
-				</div>
-						
-					<div class="fat-9 columns">	
-	
-	<div class="row">
-		<div class="fat-12 columns">
-			<div id="our-plate">
-			<h1>Our Plate</h1>
-				<p>This is the recipe for 1.0.0 on our plate, Mmmm...</p>
-		</div>
-		</div>
-	</div>							
-							
-
-	<div class="row">
-		<div id="our-columns">
-			<div class="fat-12 columns">
-				<div class="boxit">
-					<h1>Fat 12 columns</h1>
-						</div>
-							</div>		
-		
-			<div class="fat-5 columns">
-				<div class="boxit">
-					<h1>Fat 5 columns</h1>
-						</div>
-							</div>
-					
-			<div class="skinny-7 columns">
-				<div class="boxit">
-					<h1>Skinny 7 columns</h1>
-							</div>
-								</div>
-									</div>
-										</div>
-									
-	<div class="row">
-		
-		<div class="fat-12 columns">
-			<div class="boxit">
-				<ul>
-					<li><h2>Quick little FAQ</h2></li>
-					<li><p>Untill break point the columns with span inside each other, a bit like percentages, if the containing class is 12 columns, and an inner class is 6, this will span half of the containing class.</p></li>
-					<li><p>So why the boxes? that's the .boxit class, </p></li>
-				</ul>
-				
-			</div>
-		</div>
-		
-		<div class="fat-12 columns">
-			<div class="boxit">
-				<div id="buttons">
-        <section id="buttons">
-          <div class="page-header">
-            <h1>Buttons</h1>
-          </div>
-
-          <h2>Default buttons</h2>
-          <p>Button styles can be applied to anything with the <code>.btn</code> class applied. However, typically you'll want to apply these to only <code>&lt;a&gt;</code> and <code>&lt;button&gt;</code> elements for the best rendering.</p>
-          <table class="table table-bordered table-striped">
-            <thead>
-              <tr>
-                <th>Button</th>
-                <th>class=""</th>
-                <th>Description</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><button type="button" class="btn">Default</button></td>
-                <td><code>btn</code></td>
-                <td>Standard gray button with gradient</td>
-              </tr>
-              <tr>
-                <td><button type="button" class="btn btn-primary">Primary</button></td>
-                <td><code>btn btn-primary</code></td>
-                <td>Provides extra visual weight and identifies the primary action in a set of buttons</td>
-              </tr>
-              <tr>
-                <td><button type="button" class="btn btn-info">Info</button></td>
-                <td><code>btn btn-info</code></td>
-                <td>Used as an alternative to the default styles</td>
-              </tr>
-              <tr>
-                <td><button type="button" class="btn btn-success">Success</button></td>
-                <td><code>btn btn-success</code></td>
-                <td>Indicates a successful or positive action</td>
-              </tr>
-              <tr>
-                <td><button type="button" class="btn btn-warning">Warning</button></td>
-                <td><code>btn btn-warning</code></td>
-                <td>Indicates caution should be taken with this action</td>
-              </tr>
-              <tr>
-                <td><button type="button" class="btn btn-danger">Danger</button></td>
-                <td><code>btn btn-danger</code></td>
-                <td>Indicates a dangerous or potentially negative action</td>
-              </tr>
-              <tr>
-                <td><button type="button" class="btn btn-inverse">Inverse</button></td>
-                <td><code>btn btn-inverse</code></td>
-                <td>Alternate dark gray button, not tied to a semantic action or use</td>
-              </tr>
-              <tr>
-                <td><button type="button" class="btn btn-link">Link</button></td>
-                <td><code>btn btn-link</code></td>
-                <td>Deemphasize a button by making it look like a link while maintaining button behavior</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <h4>Cross browser compatibility</h4>
-          <p>IE9 doesn't crop background gradients on rounded corners, so we remove it. Related, IE9 jankifies disabled <code>button</code> elements, rendering text gray with a nasty text-shadow that we cannot fix.</p>
-
-
-          <h2>Button sizes</h2>
-          <p>Fancy larger or smaller buttons? Add <code>.btn-large</code>, <code>.btn-small</code>, or <code>.btn-mini</code> for additional sizes.</p>
-          <div class="bs-docs-example">
-            <p>
-              <button type="button" class="btn btn-large btn-primary">Large button</button>
-              <button type="button" class="btn btn-large">Large button</button>
-            </p>
-            <p>
-              <button type="button" class="btn btn-primary">Default button</button>
-              <button type="button" class="btn">Default button</button>
-            </p>
-            <p>
-              <button type="button" class="btn btn-small btn-primary">Small button</button>
-              <button type="button" class="btn btn-small">Small button</button>
-            </p>
-            <p>
-              <button type="button" class="btn btn-mini btn-primary">Mini button</button>
-              <button type="button" class="btn btn-mini">Mini button</button>
-            </p>
-          </div>
-<pre class="prettyprint linenums">
-&lt;p&gt;
-  &lt;button class="btn btn-large btn-primary" type="button"&gt;Large button&lt;/button&gt;
-  &lt;button class="btn btn-large" type="button"&gt;Large button&lt;/button&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;button class="btn btn-primary" type="button"&gt;Default button&lt;/button&gt;
-  &lt;button class="btn" type="button"&gt;Default button&lt;/button&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;button class="btn btn-small btn-primary" type="button"&gt;Small button&lt;/button&gt;
-  &lt;button class="btn btn-small" type="button"&gt;Small button&lt;/button&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;button class="btn btn-mini btn-primary" type="button"&gt;Mini button&lt;/button&gt;
-  &lt;button class="btn btn-mini" type="button"&gt;Mini button&lt;/button&gt;
-&lt;/p&gt;
-</pre>
-          <p>Create block level buttons&mdash;those that span the full width of a parent&mdash; by adding <code>.btn-block</code>.</p>
-          <div class="bs-docs-example">
-            <div class="well" style="max-width: 400px; margin: 0 auto 10px;">
-              <button type="button" class="btn btn-large btn-block btn-primary">Block level button</button>
-              <button type="button" class="btn btn-large btn-block">Block level button</button>
-            </div>
-          </div>
-<pre class="prettyprint linenums">
-&lt;button class="btn btn-large btn-block btn-primary" type="button"&gt;Block level button&lt;/button&gt;
-&lt;button class="btn btn-large btn-block" type="button"&gt;Block level button&lt;/button&gt;
-</pre>
-
-
-          <h2>Disabled state</h2>
-          <p>Make buttons look unclickable by fading them back 50%.</p>
-
-          <h3>Anchor element</h3>
-          <p>Add the <code>.disabled</code> class to <code>&lt;a&gt;</code> buttons.</p>
-          <p class="bs-docs-example">
-            <a href="#" class="btn btn-large btn-primary disabled">Primary link</a>
-            <a href="#" class="btn btn-large disabled">Link</a>
-          </p>
-<pre class="prettyprint linenums">
-&lt;a href="#" class="btn btn-large btn-primary disabled"&gt;Primary link&lt;/a&gt;
-&lt;a href="#" class="btn btn-large disabled"&gt;Link&lt;/a&gt;
-</pre>
-          <p>
-            <span class="label label-info">Heads up!</span>
-            We use <code>.disabled</code> as a utility class here, similar to the common <code>.active</code> class, so no prefix is required. Also, this class is only for aesthetic; you must use custom JavaScript to disable links here.
-          </p>
-
-          <h3>Button element</h3>
-          <p>Add the <code>disabled</code> attribute to <code>&lt;button&gt;</code> buttons.</p>
-          <p class="bs-docs-example">
-            <button type="button" class="btn btn-large btn-primary disabled" disabled="disabled">Primary button</button>
-            <button type="button" class="btn btn-large" disabled>Button</button>
-          </p>
-<pre class="prettyprint linenums">
-&lt;button type="button" class="btn btn-large btn-primary disabled" disabled="disabled"&gt;Primary button&lt;/button&gt;
-&lt;button type="button" class="btn btn-large" disabled&gt;Button&lt;/button&gt;
-</pre>
-
-
-          <h2>One class, multiple tags</h2>
-          <p>Use the <code>.btn</code> class on an <code>&lt;a&gt;</code>, <code>&lt;button&gt;</code>, or <code>&lt;input&gt;</code> element.</p>
-          <form class="bs-docs-example">
-            <a class="btn" href="">Link</a>
-            <button class="btn" type="submit">Button</button>
-            <input class="btn" type="button" value="Input">
-            <input class="btn" type="submit" value="Submit">
-          </form>
-<pre class="prettyprint linenums">
-&lt;a class="btn" href=""&gt;Link&lt;/a&gt;
-&lt;button class="btn" type="submit"&gt;Button&lt;/button&gt;
-&lt;input class="btn" type="button" value="Input"&gt;
-&lt;input class="btn" type="submit" value="Submit"&gt;
-</pre>
-          <p>As a best practice, try to match the element for your context to ensure matching cross-browser rendering. If you have an <code>input</code>, use an <code>&lt;input type="submit"&gt;</code> for your button.</p>
-
-</div>
-        </section>
+  <button class="btn btn-large btn-primary" type="button">Download Fatstrap</button>
+  
+  </div>
+</header>
 
 
 
-       
-     
 
 
-       
-				
-		</div>
-		</div>		
-		</div>
-								
-		 <!-- Footer
+	 <!-- Main page
+    ================================================== -->
+    <div class="bodarr">
+    
+    HELLO FATTYS
+    
+    </div>
+
+
+
+   	 <!-- Footer
     ================================================== -->
     <footer class="footer">
       <div class="container">
