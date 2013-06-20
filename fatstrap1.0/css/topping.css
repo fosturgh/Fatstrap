@@ -426,38 +426,24 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 
 
 
-/* Special grid styles
+/* Special grid styles fat
 -------------------------------------------------- */
 
-.show-grid {
-  margin-top: 10px;
-  margin-bottom: 20px;
+.display .row .columns, .display .row .column {
+background: #e7e7e7;
+border: 1px solid #ddd;
+font-size: 13px;
+font-weight: bold;
+text-indent: 3px;
+padding-top: 8px;
+color: #444;
+padding-bottom: 8px;
+margin-bottom:6px;
+min-height:60px;
 }
-.show-grid [class*="span"] {
-  background-color: #eee;
-  text-align: center;
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
-  min-height: 40px;
-  line-height: 40px;
-}
-.show-grid [class*="span"]:hover {
-  background-color: #ddd;
-}
-.show-grid .show-grid {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.show-grid .show-grid [class*="span"] {
-  margin-top: 5px;
-}
-.show-grid [class*="span"] [class*="span"] {
-  background-color: #ccc;
-}
-.show-grid [class*="span"] [class*="span"] [class*="span"] {
-  background-color: #999;
-}
+
+.display .row .columns:hover { background: #e1e1e1; }
+
 
 
 
