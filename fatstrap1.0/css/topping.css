@@ -4,6 +4,69 @@ color: #fff;
 text-shadow: none;}
 
 
+/* Typography
+-------------------------------------------------- */
+
+h1 { color: #ea237c;
+	 font-size: 24px;
+	 font-weight: bold;
+	 letter-spacing: -2px;
+	 text-transform: uppercase; }
+	 
+	 
+ /* Box styling
+-------------------------------------------------- */
+@media only screen and (min-width: 768px) {
+	
+	.middle-boxes li { width: 31%;
+				   margin: 1%; }	
+	
+	
+}	 
+ 
+	 
+.border-white { background: white;
+				border: solid 1px #bdbdbd;
+				-webkit-box-shadow:  1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+        		box-shadow:  1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+				padding: 3%;
+				margin: 10% 0; }
+				
+				
+				
+li.lemon { background: white;
+		   border: solid 1px #bdbdbd;
+		   -webkit-box-shadow:  1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+           box-shadow:  1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+           padding-top: 1%;
+		  }
+	
+	li.lemon h1 { text-align: center;
+				  line-height: 28px;
+				  padding: 0 10%; }
+				  
+		li.lemon p { text-align: center;
+					 font-size: 12px;
+					 padding: 0 7%; }		
+					 
+			.swirls { background:url(../img/swirls.png);
+					  padding-bottom: 34em;
+					  height: 0; }	
+				
+				.swirls img { display: block;
+							  margin: auto;
+							  padding: 10% 0; }
+
+li.pizza { background: white;
+		   border: solid 1px #bdbdbd;
+		   -webkit-box-shadow:  1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+           box-shadow:  1px 1px 4px 1px rgba(0, 0, 0, 0.1); }	
+           
+li.unite { background: white;
+		   border: solid 1px #bdbdbd;
+		   -webkit-box-shadow:  1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+	       box-shadow:  1px 1px 4px 1px rgba(0, 0, 0, 0.1); }				
+
 /* Banner @ Top ( Sunset + Gaussian Blur )
 -------------------------------------------------- */
 
