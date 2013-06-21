@@ -11,6 +11,7 @@
     <meta name="author" content="">
 
     <!-- El styles -->
+   
     <link rel="stylesheet" href="css/fatstrap.css" />
   	<link rel="stylesheet" href="css/topping.css" />
   	<link href="js/google-code-prettify/prettify.css" rel="stylesheet">
@@ -75,7 +76,7 @@
 <header class="jumbotron subhead" id="overview">
   <div class="row">
     <h1>Scaffolding</h1>
-    <p class="lead">Bootstrap is built on responsive 12-column grids, layouts, and components.</p>
+    <p class="lead">Fatstrap is built using responsive 12-column grids, layouts, and components.</p>
   </div>
 </header>
 
@@ -88,24 +89,24 @@
         <ul class="nav nav-list bs-docs-sidenav">
           <li><a href="#global"><i class="icon-chevron-right"></i> Global styles</a></li>
           <li><a href="#gridSystem"><i class="icon-chevron-right"></i> Grid system</a></li>
-          <li><a href="#fluidGridSystem"><i class="icon-chevron-right"></i> Fluid grid system</a></li>
-          <li><a href="#layouts"><i class="icon-chevron-right"></i> Layouts</a></li>
-          <li><a href="#responsive"><i class="icon-chevron-right"></i> Responsive design</a></li>
+          <li><a href="#infiniteSystem"><i class="icon-chevron-right"></i> Infinite Grid</a></li>
+          <li><a href="#OffsetSystem"><i class="icon-chevron-right"></i> Grid Offsets</a></li>
+         
         </ul>
       </div>
       <div class="fat-9 columns">
 
 
 
-        <!-- Global Bootstrap settings
+        <!-- Global settings
         ================================================== -->
         <section id="global">
           <div class="page-header">
-            <h1>Global settings</h1>
+            <h1>Fatstrap Global settings</h1>
           </div>
 
           <h3>Requires HTML5 doctype</h3>
-          <p>Bootstrap makes use of certain HTML elements and CSS properties that require the use of the HTML5 doctype. Include it at the beginning of all your projects.</p>
+          <p>Fatstrap makes use of certain HTML elements and CSS properties that require the use of the HTML5 doctype. Include it at the beginning of all your projects.</p>
 <pre class="prettyprint linenums">
 &lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -114,9 +115,9 @@
 </pre>
 
           <h3>Typography and links</h3>
-          <p>Bootstrap sets basic global display, typography, and link styles. Specifically, we:</p>
+          <p>Like Bootstrap, Fatstrap sets basic global display, typography, and link styles. Specifically, we:</p>
           <ul>
-            <li>Remove <code>margin</code> on the body</li>
+            <li>Continue to Remove <code>margin</code> on the body</li>
             <li>Set <code>background-color: white;</code> on the <code>body</code></li>
             <li>Use the <code>@baseFontFamily</code>, <code>@baseFontSize</code>, and <code>@baseLineHeight</code> attributes as our typographic base</li>
             <li>Set the global link color via <code>@linkColor</code> and apply link underlines only on <code>:hover</code></li>
@@ -124,7 +125,8 @@
           <p>These styles can be found within <strong>scaffolding.less</strong>.</p>
 
           <h3>Reset via Normalize</h3>
-          <p>With Bootstrap 2, the old reset block has been dropped in favor of <a href="http://necolas.github.com/normalize.css/" target="_blank">Normalize.css</a>, a project by <a href="http://twitter.com/necolas" target="_blank">Nicolas Gallagher</a> and <a href="http://twitter.com/jon_neal" target="_blank">Jonathan Neal</a> that also powers the <a href="http://html5boilerplate.com" target="_blank">HTML5 Boilerplate</a>. While we use much of Normalize within our <strong>reset.less</strong>, we have removed some elements specifically for Bootstrap.</p>
+          <p> Normalize <a href="http://necolas.github.com/normalize.css/" target="_blank">Normalize.css</a> a project by <a href="http://twitter.com/necolas" target="_blank">Nicolas Gallagher</a> and <a href="http://twitter.com/jon_neal" target="_blank">Jonathan Neal</a> that also powers the <a href="http://html5boilerplate.com" target="_blank">HTML5 Boilerplate</a>. </p>
+          	<p>While Bootstrap use much of Normalize within their <strong>reset.less</strong> they have removed some elements specifically for Bootstrap, we agreed with this in principal so followed suit, but just incase included a copy of the full <b>normalize.css</b> kit and kaboodle in our download for you to add at if you need to. </p>
 
         </section>
 
@@ -138,7 +140,7 @@
             <h1>The Grid</h1>
           </div>
 
-         <p class="subheader">Create powerful multi-device layouts quickly and easily with the 12-column, nestable Foundation grid. If you're familiar with grid systems, you'll feel right at home. If not, you'll learn quickly.</p>
+         <p class="subheader">Create powerful multi-device layouts quickly and easily with the 12-column, nestable Foundation 4 grid. We've just tweaked it a little added our own taxonomy and ironed out a couple of things that annoyed us! If you're familiar with grid systems, you'll feel right at home. If not, you'd have to be a nugget' niot to pick it up sfter 5 minutes, if you are a nugget' feel free to <a href="/contact"> contact us here</a>.</p>
           
           <pre class="prettyprint linenums">
           	
@@ -176,7 +178,7 @@
           </pre>
           
           
-       <div class="large-12 columns display">
+       <div class="fat-12 columns display">
             <div class="row">    
           
   <div class="skinny-2 fat-4 columns">skinny-2 fat-4</div>
@@ -212,6 +214,208 @@
 </div>
 
           
+          
+        </section>
+
+
+ <!-- Infinite Grid system
+        ================================================== -->
+        <section id="infiniteSystem">
+          <div class="page-header">
+            <h1>Infinite Gridding</h1>
+          </div>
+
+         <p class="subheader">The grid allows for nesting down as far as you'd like, though at a certain point it will get absurd. You can use this nesting to create quite complex layouts, as well as some other tricks like form layouts or visual elements.</p>
+          
+          <pre class="prettyprint linenums">
+          	
+          	&lt;div class="row"&gt;
+  &lt;div class="skinny-8 columns"&gt;8
+    &lt;div class="row"&gt;
+      &lt;div class="skinny-8 columns"&gt;8 Nested
+        &lt;div class="row"&gt;
+          &lt;div class="skinny-8 columns"&gt;8 Nested Again&lt;/div&gt;
+          &lt;div class="skinny-4 columns"&gt;4&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="skinny-4 columns"&gt;4&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="skinny-4 columns"&gt;4&lt;/div&gt;
+&lt;/div&gt;
+          	
+          </pre>
+          
+          
+       <div class="fat-12 columns display">
+            <div class="row">
+  <div class="skinny-8 columns">Skinny-8
+    <div class="row">
+      <div class="skinny-8 columns">Skinny-8 Nested
+        <div class="row">
+          <div class="skinny-8 columns">skinny-8 Nested Again</div>
+          <div class="skinny-4 columns">skinny-4</div>
+        </div>
+      </div>
+      <div class="skinny-4 columns">skinny-4</div>
+    </div>
+  </div>
+  <div class="skinny-4 columns">skinny-4</div>
+</div>
+</div>
+
+          
+          
+        </section>
+
+<!-- Offset system
+        ================================================== -->
+        <section id="OffsetSystem">
+          <div class="page-header">
+            <h1>Offsetting Portions of the Grid</h1>
+          </div>
+
+         <p class="subheader">Offsets allow you to create additional space between columns in a row. Like the rest of the grid, they're nestable. You can use classes like <code> .fat-offset-1 </code> and <code>.skinny-offset-3</code> to manipulate your column positions in different ways. You can offset up to 11 since you wouldn't ever offset a full-width column.</p>
+          
+          <pre class="prettyprint linenums">
+          	
+		&lt;div class="row"&gt;
+  &lt;div class="fat-1 columns"&gt;1&lt;/div&gt;
+  &lt;div class="fat-11 columns"&gt;11&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="fat-1 columns"&gt;1&lt;/div&gt;
+  &lt;div class="fat-10 fat-offset-1 columns"&gt;10, offset 1&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="fat-1 columns"&gt;1&lt;/div&gt;
+  &lt;div class="fat-9 fat-offset-2 columns"&gt;9, offset 2&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="fat-1 columns"&gt;1&lt;/div&gt;
+  &lt;div class="fat-8 fat-offset-3 columns"&gt;8, offset 3&lt;/div&gt;
+&lt;/div&gt;          	
+
+          </pre>
+          
+          
+       <div class="fat-12 columns display">
+       	
+           <div class="row">
+  <div class="fat-1 columns">fat-1</div>
+  <div class="fat-11 columns">fat-11</div>
+</div>
+<div class="row">
+  <div class="fat-1 columns">fat-1</div>
+  <div class="fat-10 fat-offset-1 columns">fat-10, fat-offset-1</div>
+</div>
+<div class="row">
+  <div class="fat-1 columns">fat-1</div>
+  <div class="fat-9 fat-offset-2 columns">fat-9, fat-offset-2</div>
+</div>
+<div class="row">
+  <div class="fat-1 columns">fat-1</div>
+  <div class="fat-8 fat-offset-3 columns">fat-8, fat-offset-3</div>
+</div>
+</div>
+
+          
+          
+        </section>
+        
+        <!-- Centered Columns
+        ================================================== -->
+        <section id="CenteredColumns">
+          <div class="page-header">
+            <h1>Offsetting Portions of the Grid</h1>
+          </div>
+
+         <p class="subheader">Centered columns are placed in the middle of the row. This does not center their content, but centers the grid element, itself. This is accomplished by adding a class of <code> fat-centered </code> or <code> skinny-centered </code> depending on which breakpoint you want the columns to center on. skinny versions will carry through all breakpoints if not overridden by a fat version. You can center any number of columns you have. To have a column not carry it's <code> skinny-centered </code> to fat, add a class of <code>fat-uncentered.</code></p>
+          
+          <pre class="prettyprint linenums">
+          	
+          	&lt;div class="row"&gt;
+  &lt;div class="skinny-3 skinny-centered columns"&gt;3 centered&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="skinny-6 fat-centered columns"&gt;6 centered&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="skinny-9 skinny-centered fat-uncentered columns"&gt;9 centered&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="skinny-11 skinny-centered columns"&gt;11 centered&lt;/div&gt;
+&lt;/div&gt;
+          &lt;/div&gt;
+          	
+
+          </pre>
+          
+          
+       <div class="fat-12 columns display">
+       	
+          <div class="row">
+  <div class="skinny-3 skinny-centered columns">3 centered</div>
+</div>
+<div class="row">
+  <div class="skinny-6 fat-centered columns">6 centered</div>
+</div>
+<div class="row">
+  <div class="skinny-9 skinny-centered fat-uncentered columns">9 centered</div>
+</div>
+<div class="row">
+  <div class="skinny-11 skinny-centered columns">11 centered</div>
+</div>  	
+          
+          </div>
+          
+        </section>
+        
+      <!-- Source Ordering
+        ================================================== -->
+        <section id="SourceOrdering">
+          <div class="page-header">
+            <h1>'Sauce' Ordering</h1>
+          </div>
+
+         <p class="subheader">Using these source ordering classes, you can shift columns around between our breakpoints. This means you can have a sub-nav on the left on large displays, but go below on small ones. .push-# is the syntax you'll use.</p>
+          
+          <pre class="prettyprint linenums">
+          	
+          	&lt;div class="row"&gt;
+  &lt;div class="skinny-3 skinny-centered columns"&gt;3 centered&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="skinny-6 fat-centered columns"&gt;6 centered&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="skinny-9 skinny-centered fat-uncentered columns"&gt;9 centered&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="skinny-11 skinny-centered columns"&gt;11 centered&lt;/div&gt;
+&lt;/div&gt;
+          &lt;/div&gt;
+          	
+
+          </pre>
+          
+          
+       <div class="fat-12 columns display">
+       	
+          <div class="row">
+  <div class="skinny-3 skinny-centered columns">3 centered</div>
+</div>
+<div class="row">
+  <div class="skinny-6 fat-centered columns">6 centered</div>
+</div>
+<div class="row">
+  <div class="skinny-9 skinny-centered fat-uncentered columns">9 centered</div>
+</div>
+<div class="row">
+  <div class="skinny-11 skinny-centered columns">11 centered</div>
+</div>  	
+          
+          </div>
           
         </section>
 

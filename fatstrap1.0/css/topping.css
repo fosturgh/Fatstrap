@@ -1,7 +1,3 @@
-::selection {
-background: #fe57a1;
-color: #fff;
-text-shadow: none;}
 
 
 /* Typography
@@ -111,9 +107,22 @@ h3 code {
 }
 
 
+footer { margin-top:3em; }
 
 /* Tweak navbar brand link to be super sleek
 -------------------------------------------------- */
+
+
+
+
+::selection {
+background: #fe57a1;
+color: #fff;
+text-shadow: none;}
+
+section { float:left;clear:left; }
+
+
 
 body > .navbar {
   font-size: 13px;

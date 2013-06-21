@@ -443,6 +443,7 @@ a:focus {
     margin-left: auto;
     margin-right: auto;
     float: none !important; } }
+    
 /* Styles for screens that are atleast 768px; */
 @media only screen and (min-width: 768px) {
   .fat-1 {
@@ -459,7 +460,7 @@ a:focus {
 
   .fat-4 {
     position: relative;
-    width: 33.33333%; }
+    width: 33.333333%; }
 
   .fat-5 {
     position: relative;
@@ -475,7 +476,7 @@ a:focus {
 
   .fat-8 {
     position: relative;
-    width: 66.66667%; }
+    width: 66.666666%; }
 
   .fat-9 {
     position: relative;
@@ -1235,7 +1236,7 @@ pre {
 
 code {
   padding: 2px 4px;
-  color: #d14;
+  color: #fe57a1;
   white-space: nowrap;
   background-color: #f7f7f9;
   border: 1px solid #e1e1e8;
