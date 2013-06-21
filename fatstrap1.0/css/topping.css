@@ -28,6 +28,8 @@ h1 { color: #ea237c;
 				padding: 3%;
 				margin: 10% 0; }
 				
+.border-white h1, .border-white p { text-align: center; }
+				
 				
 				
 li.lemon { background: white;
@@ -52,6 +54,34 @@ li.lemon { background: white;
 				.swirls img { display: block;
 							  margin: auto;
 							  padding: 10% 0; }
+							  
+							  .swirls-2 { background:url(../img/swirls.png);
+										  padding-bottom: 23em;
+									      height: 0;
+									      -webkit-transition: background 0.5s ease;
+										  -moz-transition: background 0.5s ease;
+									      -ms-transition: background 0.5s ease;
+    									  -o-transition: background 0.5s ease;
+										  transition: background 0.5s ease; }
+									     	
+										     	  .swirls-2:hover { background:url(../img/swirls2.png);
+															  		padding-bottom: 23em;
+														     		height: 0;
+														     		-webkit-transition: background 0.5s ease;
+																	-moz-transition: background 0.5s ease;
+															        -ms-transition: background 0.5s ease;
+															        -o-transition: background 0.5s ease;
+																	transition: background 0.5s ease;
+														     		 }		
+														     		 
+													.swirls-2:hover > h1 { color: black;
+																		 
+																		    }     		 
+				
+														.swirls-2 img { display: block;
+																	    margin: auto;
+																	    padding: 10% 0; }
+							  
 
 li.pizza { background: white;
 		   border: solid 1px #bdbdbd;
