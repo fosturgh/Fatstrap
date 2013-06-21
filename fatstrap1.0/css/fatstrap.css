@@ -339,95 +339,95 @@ a:focus {
     padding-right: 0.9375em;
     float: left; }
 
-  .skinny-1 {
+  .active-1 {
     position: relative;
     width: 8.33333%; }
 
-  .skinny-2 {
+  .active-2 {
     position: relative;
     width: 16.66667%; }
 
-  .skinny-3 {
+  .active-3 {
     position: relative;
     width: 25%; }
 
-  .skinny-4 {
+  .active-4 {
     position: relative;
     width: 33.33333%; }
 
-  .skinny-5 {
+  .active-5 {
     position: relative;
     width: 41.66667%; }
 
-  .skinny-6 {
+  .active-6 {
     position: relative;
     width: 50%; }
 
-  .skinny-7 {
+  .active-7 {
     position: relative;
     width: 58.33333%; }
 
-  .skinny-8 {
+  .active-8 {
     position: relative;
     width: 66.66667%; }
 
-  .skinny-9 {
+  .active-9 {
     position: relative;
     width: 75%; }
 
-  .skinny-10 {
+  .active-10 {
     position: relative;
     width: 83.33333%; }
 
-  .skinny-11 {
+  .active-11 {
     position: relative;
     width: 91.66667%; }
 
-  .skinny-12 {
+  .active-12 {
     position: relative;
     width: 100%; }
 
-  .skinny-offset-0 {
+  .active-offset-0 {
     position: relative;
     margin-left: 0%; }
 
-  .skinny-offset-1 {
+  .active-offset-1 {
     position: relative;
     margin-left: 8.33333%; }
 
-  .skinny-offset-2 {
+  .active-offset-2 {
     position: relative;
     margin-left: 16.66667%; }
 
-  .skinny-offset-3 {
+  .active-offset-3 {
     position: relative;
     margin-left: 25%; }
 
-  .skinny-offset-4 {
+  .active-offset-4 {
     position: relative;
     margin-left: 33.33333%; }
 
-  .skinny-offset-5 {
+  .active-offset-5 {
     position: relative;
     margin-left: 41.66667%; }
 
-  .skinny-offset-6 {
+  .active-offset-6 {
     position: relative;
     margin-left: 50%; }
 
-  .skinny-offset-7 {
+  .active-offset-7 {
     position: relative;
     margin-left: 58.33333%; }
 
-  .skinny-offset-8 {
+  .active-offset-8 {
     position: relative;
     margin-left: 66.66667%; }
 
-  .skinny-offset-9 {
+  .active-offset-9 {
     position: relative;
     margin-left: 75%; }
 
-  .skinny-offset-10 {
+  .active-offset-10 {
     position: relative;
     margin-left: 83.33333%; }
 
@@ -437,8 +437,8 @@ a:focus {
   [class*="column"] + [class*="column"].end {
     float: left; }
 
-  .column.skinny-centered,
-  .columns.skinny-centered {
+  .column.active-centered,
+  .columns.active-centered {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -446,99 +446,99 @@ a:focus {
     
 /* Styles for screens that are atleast 768px; */
 @media only screen and (min-width: 768px) {
-  .fat-1 {
+  .lazy-1 {
     position: relative;
     width: 8.33333%; }
 
-  .fat-2 {
+  .lazy-2 {
     position: relative;
     width: 16.66667%; }
 
-  .fat-3 {
+  .lazy-3 {
     position: relative;
     width: 25%; }
 
-  .fat-4 {
+  .lazy-4 {
     position: relative;
     width: 33.333333%; }
 
-  .fat-5 {
+  .lazy-5 {
     position: relative;
     width: 41.66667%; }
 
-  .fat-6 {
+  .lazy-6 {
     position: relative;
     width: 50%; }
 
-  .fat-7 {
+  .lazy-7 {
     position: relative;
     width: 58.33333%; }
 
-  .fat-8 {
+  .lazy-8 {
     position: relative;
     width: 66.666666%; }
 
-  .fat-9 {
+  .lazy-9 {
     position: relative;
     width: 75%; }
 
-  .fat-10 {
+  .lazy-10 {
     position: relative;
     width: 83.33333%; }
 
-  .fat-11 {
+  .lazy-11 {
     position: relative;
     width: 91.66667%; }
 
-  .fat-12 {
+  .lazy-12 {
     position: relative;
     width: 100%; }
 
-  .row .fat-offset-0 {
+  .row .lazy-offset-0 {
     position: relative;
     margin-left: 0%; }
 
-  .row .fat-offset-1 {
+  .row .lazy-offset-1 {
     position: relative;
     margin-left: 8.33333%; }
 
-  .row .fat-offset-2 {
+  .row .lazy-offset-2 {
     position: relative;
     margin-left: 16.66667%; }
 
-  .row .fat-offset-3 {
+  .row .lazy-offset-3 {
     position: relative;
     margin-left: 25%; }
 
-  .row .fat-offset-4 {
+  .row .lazy-offset-4 {
     position: relative;
     margin-left: 33.33333%; }
 
-  .row .fat-offset-5 {
+  .row .lazy-offset-5 {
     position: relative;
     margin-left: 41.66667%; }
 
-  .row .fat-offset-6 {
+  .row .lazy-offset-6 {
     position: relative;
     margin-left: 50%; }
 
-  .row .fat-offset-7 {
+  .row .lazy-offset-7 {
     position: relative;
     margin-left: 58.33333%; }
 
-  .row .fat-offset-8 {
+  .row .lazy-offset-8 {
     position: relative;
     margin-left: 66.66667%; }
 
-  .row .fat-offset-9 {
+  .row .lazy-offset-9 {
     position: relative;
     margin-left: 75%; }
 
-  .row .fat-offset-10 {
+  .row .lazy-offset-10 {
     position: relative;
     margin-left: 83.33333%; }
 
-  .row .fat-offset-11 {
+  .row .lazy-offset-11 {
     position: relative;
     margin-left: 91.66667%; }
 
@@ -652,21 +652,21 @@ a:focus {
     right: 91.66667%;
     left: auto; }
 
-  .column.fat-centered,
-  .columns.fat-centered {
+  .column.lazy-centered,
+  .columns.lazy-centered {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     float: none !important; }
 
-  .column.fat-uncentered,
-  .columns.fat-uncentered {
+  .column.lazy-uncentered,
+  .columns.lazy-uncentered {
     margin-left: 0;
     margin-right: 0;
     float: left !important; }
 
-  .column.fat-uncentered.opposite,
-  .columns.fat-uncentered.opposite {
+  .column.lazy-uncentered.opposite,
+  .columns.lazy-uncentered.opposite {
     float: right !important; } }
     
     /* Foundation Block Grids for below skinny breakpoint */
@@ -687,234 +687,234 @@ a:focus {
       float: left;
       padding: 0 0.625em 1.25em; }
 
-  .skinny-block-grid-1 > li {
+  .active-block-grid-1 > li {
     width: 100%;
     padding: 0 0.625em 1.25em; }
-    .skinny-block-grid-1 > li:nth-of-type(n) {
+    .active-block-grid-1 > li:nth-of-type(n) {
       clear: none; }
-    .skinny-block-grid-1 > li:nth-of-type(1n+1) {
+    .active-block-grid-1 > li:nth-of-type(1n+1) {
       clear: both; }
 
-  .skinny-block-grid-2 > li {
+  .active-block-grid-2 > li {
     width: 50%;
     padding: 0 0.625em 1.25em; }
-    .skinny-block-grid-2 > li:nth-of-type(n) {
+    .active-block-grid-2 > li:nth-of-type(n) {
       clear: none; }
-    .skinny-block-grid-2 > li:nth-of-type(2n+1) {
+    .active-block-grid-2 > li:nth-of-type(2n+1) {
       clear: both; }
 
-  .skinny-block-grid-3 > li {
+  .active-block-grid-3 > li {
     width: 33.33333%;
     padding: 0 0.625em 1.25em; }
-    .skinny-block-grid-3 > li:nth-of-type(n) {
+    .active-block-grid-3 > li:nth-of-type(n) {
       clear: none; }
-    .skinny-block-grid-3 > li:nth-of-type(3n+1) {
+    .active-block-grid-3 > li:nth-of-type(3n+1) {
       clear: both; }
 
-  .skinny-block-grid-4 > li {
+  .active-block-grid-4 > li {
     width: 25%;
     padding: 0 0.625em 1.25em; }
-    .skinny-block-grid-4 > li:nth-of-type(n) {
+    .active-block-grid-4 > li:nth-of-type(n) {
       clear: none; }
-    .skinny-block-grid-4 > li:nth-of-type(4n+1) {
+    .active-block-grid-4 > li:nth-of-type(4n+1) {
       clear: both; }
 
-  .skinny-block-grid-5 > li {
+  .active-block-grid-5 > li {
     width: 20%;
     padding: 0 0.625em 1.25em; }
-    .skinny-block-grid-5 > li:nth-of-type(n) {
+    .active-block-grid-5 > li:nth-of-type(n) {
       clear: none; }
-    .skinny-block-grid-5 > li:nth-of-type(5n+1) {
+    .active-block-grid-5 > li:nth-of-type(5n+1) {
       clear: both; }
 
-  .skinny-block-grid-6 > li {
+  .active-block-grid-6 > li {
     width: 16.66667%;
     padding: 0 0.625em 1.25em; }
-    .skinny-block-grid-6 > li:nth-of-type(n) {
+    .active-block-grid-6 > li:nth-of-type(n) {
       clear: none; }
-    .skinny-block-grid-6 > li:nth-of-type(6n+1) {
+    .active-block-grid-6 > li:nth-of-type(6n+1) {
       clear: both; }
 
-  .skinny-block-grid-7 > li {
+  .active-block-grid-7 > li {
     width: 14.28571%;
     padding: 0 0.625em 1.25em; }
-    .skinny-block-grid-7 > li:nth-of-type(n) {
+    .active-block-grid-7 > li:nth-of-type(n) {
       clear: none; }
-    .skinny-block-grid-7 > li:nth-of-type(7n+1) {
+    .active-block-grid-7 > li:nth-of-type(7n+1) {
       clear: both; }
 
-  .skinny-block-grid-8 > li {
+  .active-block-grid-8 > li {
     width: 12.5%;
     padding: 0 0.625em 1.25em; }
-    .skinny-block-grid-8 > li:nth-of-type(n) {
+    .active-block-grid-8 > li:nth-of-type(n) {
       clear: none; }
-    .skinny-block-grid-8 > li:nth-of-type(8n+1) {
+    .active-block-grid-8 > li:nth-of-type(8n+1) {
       clear: both; }
 
-  .skinny-block-grid-9 > li {
+  .active-block-grid-9 > li {
     width: 11.11111%;
     padding: 0 0.625em 1.25em; }
-    .skinny-block-grid-9 > li:nth-of-type(n) {
+    .active-block-grid-9 > li:nth-of-type(n) {
       clear: none; }
-    .skinny-block-grid-9 > li:nth-of-type(9n+1) {
+    .active-block-grid-9 > li:nth-of-type(9n+1) {
       clear: both; }
 
-  .skinny-block-grid-10 > li {
+  .active-block-grid-10 > li {
     width: 10%;
     padding: 0 0.625em 1.25em; }
-    .skinny-block-grid-10 > li:nth-of-type(n) {
+    .active-block-grid-10 > li:nth-of-type(n) {
       clear: none; }
-    .skinny-block-grid-10 > li:nth-of-type(10n+1) {
+    .active-block-grid-10 > li:nth-of-type(10n+1) {
       clear: both; }
 
-  .skinny-block-grid-11 > li {
+  .active-block-grid-11 > li {
     width: 9.09091%;
     padding: 0 0.625em 1.25em; }
-    .skinny-block-grid-11 > li:nth-of-type(n) {
+    .active-block-grid-11 > li:nth-of-type(n) {
       clear: none; }
-    .skinny-block-grid-11 > li:nth-of-type(11n+1) {
+    .active-block-grid-11 > li:nth-of-type(11n+1) {
       clear: both; }
 
-  .skinny-block-grid-12 > li {
+  .active-block-grid-12 > li {
     width: 8.33333%;
     padding: 0 0.625em 1.25em; }
-    .skinny-block-grid-12 > li:nth-of-type(n) {
+    .active-block-grid-12 > li:nth-of-type(n) {
       clear: none; }
-    .skinny-block-grid-12 > li:nth-of-type(12n+1) {
+    .active-block-grid-12 > li:nth-of-type(12n+1) {
       clear: both; } }
 /* Foundation Block Grids for above skinny breakpoint */
 @media only screen and (min-width: 768px) {
   /* Remove skinny grid clearing */
-  .skinny-block-grid-1 > li:nth-of-type(1n+1) {
+  .active-block-grid-1 > li:nth-of-type(1n+1) {
     clear: none; }
 
-  .skinny-block-grid-2 > li:nth-of-type(2n+1) {
+  .active-block-grid-2 > li:nth-of-type(2n+1) {
     clear: none; }
 
-  .skinny-block-grid-3 > li:nth-of-type(3n+1) {
+  .active-block-grid-3 > li:nth-of-type(3n+1) {
     clear: none; }
 
-  .skinny-block-grid-4 > li:nth-of-type(4n+1) {
+  .active-block-grid-4 > li:nth-of-type(4n+1) {
     clear: none; }
 
-  .skinny-block-grid-5 > li:nth-of-type(5n+1) {
+  .active-block-grid-5 > li:nth-of-type(5n+1) {
     clear: none; }
 
-  .skinny-block-grid-6 > li:nth-of-type(6n+1) {
+  .active-block-grid-6 > li:nth-of-type(6n+1) {
     clear: none; }
 
-  .skinny-block-grid-7 > li:nth-of-type(7n+1) {
+  .active-block-grid-7 > li:nth-of-type(7n+1) {
     clear: none; }
 
-  .skinny-block-grid-8 > li:nth-of-type(8n+1) {
+  .active-block-grid-8 > li:nth-of-type(8n+1) {
     clear: none; }
 
-  .skinny-block-grid-9 > li:nth-of-type(9n+1) {
+  .active-block-grid-9 > li:nth-of-type(9n+1) {
     clear: none; }
 
-  .skinny-block-grid-10 > li:nth-of-type(10n+1) {
+  .active-block-grid-10 > li:nth-of-type(10n+1) {
     clear: none; }
 
-  .skinny-block-grid-11 > li:nth-of-type(11n+1) {
+  .active-block-grid-11 > li:nth-of-type(11n+1) {
     clear: none; }
 
-  .skinny-block-grid-12 > li:nth-of-type(12n+1) {
+  .active-block-grid-12 > li:nth-of-type(12n+1) {
     clear: none; }
 
-  .fat-block-grid-1 > li {
+  .lazy-block-grid-1 > li {
     width: 100%;
     padding: 0 0.625em 1.25em; }
-    .fat-block-grid-1 > li:nth-of-type(n) {
+    .lazy-block-grid-1 > li:nth-of-type(n) {
       clear: none; }
-    .fat-block-grid-1 > li:nth-of-type(1n+1) {
+    .lazy-block-grid-1 > li:nth-of-type(1n+1) {
       clear: both; }
 
-  .fat-block-grid-2 > li {
+  .lazy-block-grid-2 > li {
     width: 50%;
     padding: 0 0.625em 1.25em; }
-    .fat-block-grid-2 > li:nth-of-type(n) {
+    .lazy-block-grid-2 > li:nth-of-type(n) {
       clear: none; }
-    .fat-block-grid-2 > li:nth-of-type(2n+1) {
+    .lazy-block-grid-2 > li:nth-of-type(2n+1) {
       clear: both; }
 
-  .fat-block-grid-3 > li {
+  .lazy-block-grid-3 > li {
     width: 33.33333%;
     padding: 0 0.625em 1.25em; }
-    .fat-block-grid-3 > li:nth-of-type(n) {
+    .lazy-block-grid-3 > li:nth-of-type(n) {
       clear: none; }
-    .fat-block-grid-3 > li:nth-of-type(3n+1) {
+    .lazy-block-grid-3 > li:nth-of-type(3n+1) {
       clear: both; }
 
-  .fat-block-grid-4 > li {
+  .lazy-block-grid-4 > li {
     width: 25%;
     padding: 0 0.625em 1.25em; }
-    .fat-block-grid-4 > li:nth-of-type(n) {
+    .lazy-block-grid-4 > li:nth-of-type(n) {
       clear: none; }
-    .fat-block-grid-4 > li:nth-of-type(4n+1) {
+    .lazy-block-grid-4 > li:nth-of-type(4n+1) {
       clear: both; }
 
-  .fat-block-grid-5 > li {
+  .lazy-block-grid-5 > li {
     width: 20%;
     padding: 0 0.625em 1.25em; }
-    .fat-block-grid-5 > li:nth-of-type(n) {
+    .lazy-block-grid-5 > li:nth-of-type(n) {
       clear: none; }
-    .fat-block-grid-5 > li:nth-of-type(5n+1) {
+    .lazy-block-grid-5 > li:nth-of-type(5n+1) {
       clear: both; }
 
-  .fat-block-grid-6 > li {
+  .lazy-block-grid-6 > li {
     width: 16.66667%;
     padding: 0 0.625em 1.25em; }
-    .fat-block-grid-6 > li:nth-of-type(n) {
+    .lazy-block-grid-6 > li:nth-of-type(n) {
       clear: none; }
-    .fat-block-grid-6 > li:nth-of-type(6n+1) {
+    .lazy-block-grid-6 > li:nth-of-type(6n+1) {
       clear: both; }
 
-  .fat-block-grid-7 > li {
+  .lazy-block-grid-7 > li {
     width: 14.28571%;
     padding: 0 0.625em 1.25em; }
-    .fat-block-grid-7 > li:nth-of-type(n) {
+    .lazy-block-grid-7 > li:nth-of-type(n) {
       clear: none; }
-    .fat-block-grid-7 > li:nth-of-type(7n+1) {
+    .lazy-block-grid-7 > li:nth-of-type(7n+1) {
       clear: both; }
 
-  .fat-block-grid-8 > li {
+  .lazy-block-grid-8 > li {
     width: 12.5%;
     padding: 0 0.625em 1.25em; }
-    .fat-block-grid-8 > li:nth-of-type(n) {
+    .lazy-block-grid-8 > li:nth-of-type(n) {
       clear: none; }
-    .fat-block-grid-8 > li:nth-of-type(8n+1) {
+    .lazy-block-grid-8 > li:nth-of-type(8n+1) {
       clear: both; }
 
-  .fat-block-grid-9 > li {
+  .lazy-block-grid-9 > li {
     width: 11.11111%;
     padding: 0 0.625em 1.25em; }
-    .fat-block-grid-9 > li:nth-of-type(n) {
+    .lazy-block-grid-9 > li:nth-of-type(n) {
       clear: none; }
-    .fat-block-grid-9 > li:nth-of-type(9n+1) {
+    .lazy-block-grid-9 > li:nth-of-type(9n+1) {
       clear: both; }
 
-  .fat-block-grid-10 > li {
+  .lazy-block-grid-10 > li {
     width: 10%;
     padding: 0 0.625em 1.25em; }
-    .fat-block-grid-10 > li:nth-of-type(n) {
+    .lazy-block-grid-10 > li:nth-of-type(n) {
       clear: none; }
-    .fat-block-grid-10 > li:nth-of-type(10n+1) {
+    .lazy-block-grid-10 > li:nth-of-type(10n+1) {
       clear: both; }
 
-  .fat-block-grid-11 > li {
+  .lazy-block-grid-11 > li {
     width: 9.09091%;
     padding: 0 0.625em 1.25em; }
-    .fat-block-grid-11 > li:nth-of-type(n) {
+    .lazy-block-grid-11 > li:nth-of-type(n) {
       clear: none; }
-    .fat-block-grid-11 > li:nth-of-type(11n+1) {
+    .lazy-block-grid-11 > li:nth-of-type(11n+1) {
       clear: both; }
 
-  .fat-block-grid-12 > li {
+  .lazy-block-grid-12 > li {
     width: 8.33333%;
     padding: 0 0.625em 1.25em; }
-    .fat-block-grid-12 > li:nth-of-type(n) {
+    .lazy-block-grid-12 > li:nth-of-type(n) {
       clear: none; }
-    .fat-block-grid-12 > li:nth-of-type(12n+1) {
+    .lazy-block-grid-12 > li:nth-of-type(12n+1) {
       clear: both; } }
     
     
@@ -1594,75 +1594,75 @@ textarea,
   margin-left: 20px;
 }
 
-input.fat-12,
-textarea.fat-12,
-.uneditable-input.fat-12 {
+input.lazy-12,
+textarea.lazy-12,
+.uneditable-input.lazy-12 {
   width: 100%;
 }
 
-input.fat-11,
-textarea.fat-11,
-.uneditable-input.fat-11 {
+input.lazy-11,
+textarea.lazy-11,
+.uneditable-input.lazy-11 {
   width: 91.66667%;
 }
 
-input.fat-10,
-textarea.fat-10,
-.uneditable-input.fat-10 {
+input.lazy-10,
+textarea.lazy-10,
+.uneditable-input.lazy-10 {
   width: 83.33333%;
 }
 
-input.fat-9,
-textarea.fat-9,
-.uneditable-input.fat-9 {
+input.lazy-9,
+textarea.lazy-9,
+.uneditable-input.lazy-9 {
   width: 75%;
 }
 
-input.fat-8,
-textarea.fat-8,
-.uneditable-input.fat-8 {
+input.lazy-8,
+textarea.lazy-8,
+.uneditable-input.lazy-8 {
  width: 66.66667%;
 }
 
-input.fat-7,
-textarea.fat-7,
-.uneditable-input.fat-7 {
+input.lazy-7,
+textarea.lazy-7,
+.uneditable-input.lazy-7 {
   width: 58.33333%;
 }
 
-input.fat-6,
-textarea.fat-6,
-.uneditable-input.fat-6 {
+input.lazy-6,
+textarea.lazy-6,
+.uneditable-input.lazy-6 {
   width: 50%;
 }
 
-input.fat-5,
-textarea.fat-5,
-.uneditable-input.fat-5 {
+input.lazy-5,
+textarea.lazy-5,
+.uneditable-input.lazy-5 {
   width: 41.66667%;
 }
 
-input.fat-4,
-textarea.fat-4,
-.uneditable-input.fat-4 {
+input.lazy-4,
+textarea.lazy-4,
+.uneditable-input.lazy-4 {
    width: 33.33333%;
 }
 
-input.fat-3,
-textarea.fat-3,
-.uneditable-input.fat-3 {
+input.lazy-3,
+textarea.lazy-3,
+.uneditable-input.lazy-3 {
   width: 25%;
 }
 
-input.fat-2,
-textarea.fat-2,
-.uneditable-input.fat-2 {
+input.lazy-2,
+textarea.lazy-2,
+.uneditable-input.lazy-2 {
   width: 16.66667%;
 }
 
-input.fat-1,
-textarea.fat-1,
-.uneditable-input.fat-1 {
+input.lazy-1,
+textarea.lazy-1,
+.uneditable-input.lazy-1 {
   width: 8.33333%;
 }
 
@@ -2414,85 +2414,85 @@ table th[class*="span"],
   margin-left: 0;
 }
 
-.table td.fat-1,
-.table th.fat-1 {
+.table td.lazy-1,
+.table th.lazy-1 {
   float: none;
   width: 8.33333%; 
   margin-left: 0;
 }
 
-.table td.fat-2,
-.table th.fat-2 {
+.table td.lazy-2,
+.table th.lazy-2 {
   float: none;
   width: 16.66667%;
   margin-left: 0;
 }
 
-.table td.fat-3,
-.table th.fat-3 {
+.table td.lazy-3,
+.table th.lazy-3 {
   float: none;
   width: 25%;
   margin-left: 0;
 }
 
-.table td.fat-4,
-.table th.fat-4 {
+.table td.lazy-4,
+.table th.lazy-4 {
   float: none;
   width: 33.33333%;
   margin-left: 0;
 }
 
-.table td.fat-5,
-.table th.fat-5 {
+.table td.lazy-5,
+.table th.lazy-5 {
   float: none;
   width: 41.66667%;
   margin-left: 0;
 }
 
-.table td.fat-6,
-.table th.fat-6 {
+.table td.lazy-6,
+.table th.lazy-6 {
   float: none;
   width: 50%;
   margin-left: 0;
 }
 
-.table td.fat-7,
-.table th.fat-7 {
+.table td.lazy-7,
+.table th.lazy-7 {
   float: none;
   width: 58.33333%;
   margin-left: 0;
 }
 
-.table td.fat-8,
-.table th.fat-8 {
+.table td.lazy-8,
+.table th.lazy-8 {
   float: none;
   width: 66.66667%;
   margin-left: 0;
 }
 
-.table td.fat-9,
-.table th.fat-9 {
+.table td.lazy-9,
+.table th.lazy-9 {
   float: none;
   width: 75%;
   margin-left: 0;
 }
 
-.table td.fat-10,
-.table th.fat-10 {
+.table td.lazy-10,
+.table th.lazy-10 {
   float: none;
   width: 83.33333%;
   margin-left: 0;
 }
 
-.table td.fat-11,
-.table th.fat-11 {
+.table td.lazy-11,
+.table th.lazy-11 {
   float: none;
   width: 91.66667%;
   margin-left: 0;
 }
 
-.table td.fat-12,
-.table th.fat-12 {
+.table td.lazy-12,
+.table th.lazy-12 {
   float: none;
   width: 100%;
   margin-left: 0;
