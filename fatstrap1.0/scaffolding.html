@@ -5,14 +5,14 @@
 <head>
 	<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-    <title>Our Meat & Potatos | Fatstraps core framework</title>
+    <title>Our Meat & Potatos | lazystraps core framework</title>
    
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- El styles -->
    
-    <link rel="stylesheet" href="css/fatstrap.css" />
+    <link rel="stylesheet" href="css/lazystrap.css" />
   	<link rel="stylesheet" href="css/topping.css" />
   	<link href="js/google-code-prettify/prettify.css" rel="stylesheet">
 
@@ -43,7 +43,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="./index.html">Fatstrap</a>
+          <a class="brand" href="./index.html">lazystrap</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="">
@@ -76,7 +76,7 @@
 <header class="jumbotron subhead" id="overview">
   <div class="row">
     <h1>Scaffolding</h1>
-    <p class="lead">Fatstrap is built using responsive 12-column grids, layouts, and components.</p>
+    <p class="lead">lazystrap is built using responsive 12-column grids, layouts, and components.</p>
   </div>
 </header>
 
@@ -85,7 +85,7 @@
     <!-- Docs nav
     ================================================== -->
     <div class="row">
-      <div class="fat-3 columns bs-docs-sidebar">
+      <div class="lazy-3 columns bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav">
           <li><a href="#global"><i class="icon-chevron-right"></i> Global styles</a></li>
           <li><a href="#gridSystem"><i class="icon-chevron-right"></i> Grid system</a></li>
@@ -94,7 +94,7 @@
          
         </ul>
       </div>
-      <div class="fat-9 columns">
+      <div class="lazy-9 columns">
 
 
 
@@ -102,11 +102,11 @@
         ================================================== -->
         <section id="global">
           <div class="page-header">
-            <h1>Fatstrap Global settings</h1>
+            <h1>lazystrap Global settings</h1>
           </div>
 
           <h3>Requires HTML5 doctype</h3>
-          <p>Fatstrap makes use of certain HTML elements and CSS properties that require the use of the HTML5 doctype. Include it at the beginning of all your projects.</p>
+          <p>lazystrap makes use of certain HTML elements and CSS properties that require the use of the HTML5 doctype. Include it at the beginning of all your projects.</p>
 <pre class="prettyprint linenums">
 &lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -115,7 +115,7 @@
 </pre>
 
           <h3>Typography and links</h3>
-          <p>Like Bootstrap, Fatstrap sets basic global display, typography, and link styles. Specifically, we:</p>
+          <p>Like Bootstrap, lazystrap sets basic global display, typography, and link styles. Specifically, we:</p>
           <ul>
             <li>Continue to Remove <code>margin</code> on the body</li>
             <li>Set <code>background-color: white;</code> on the <code>body</code></li>
@@ -145,71 +145,71 @@
           <pre class="prettyprint linenums">
           	
           	&lt;div class="row"&gt;
-  &lt;div class="skinny-2 fat-4 columns"&gt;...&lt;/div&gt;
-  &lt;div class="skinny-4 fat-4 columns"&gt;...&lt;/div&gt;
-  &lt;div class="skinny-6 fat-4 columns"&gt;...&lt;/div&gt;
+  &lt;div class="active-2 lazy-4 columns"&gt;...&lt;/div&gt;
+  &lt;div class="active-4 lazy-4 columns"&gt;...&lt;/div&gt;
+  &lt;div class="active-6 lazy-4 columns"&gt;...&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="row"&gt;
-  &lt;div class="fat-3 columns"&gt;...&lt;/div&gt;
-  &lt;div class="fat-6 columns"&gt;...&lt;/div&gt;
-  &lt;div class="fat-3 columns"&gt;...&lt;/div&gt;
+  &lt;div class="lazy-3 columns"&gt;...&lt;/div&gt;
+  &lt;div class="lazy-6 columns"&gt;...&lt;/div&gt;
+  &lt;div class="lazy-3 columns"&gt;...&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="row"&gt;
-  &lt;div class="skinny-6 fat-2 columns"&gt;...&lt;/div&gt;
-  &lt;div class="skinny-6 fat-8 columns"&gt;...&lt;/div&gt;
-  &lt;div class="skinny-12 fat-2 columns"&gt;...&lt;/div&gt;
+  &lt;div class="active-6 lazy-2 columns"&gt;...&lt;/div&gt;
+  &lt;div class="active-6 lazy-8 columns"&gt;...&lt;/div&gt;
+  &lt;div class="active-12 lazy-2 columns"&gt;...&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="row"&gt;
-  &lt;div class="skinny-3 columns"&gt;...&lt;/div&gt;
-  &lt;div class="skinny-9 columns"&gt;...&lt;/div&gt;
+  &lt;div class="active-3 columns"&gt;...&lt;/div&gt;
+  &lt;div class="active-9 columns"&gt;...&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="row"&gt;
-  &lt;div class="fat-4 columns"&gt;...&lt;/div&gt;
-  &lt;div class="fat-8 columns"&gt;...&lt;/div&gt;
+  &lt;div class="lazy-4 columns"&gt;...&lt;/div&gt;
+  &lt;div class="lazy-8 columns"&gt;...&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="row"&gt;
-  &lt;div class="skinny-6 fat-5 columns"&gt;...&lt;/div&gt;
-  &lt;div class="skinny-6 fat-7 columns"&gt;...&lt;/div&gt;
+  &lt;div class="active-6 lazy-5 columns"&gt;...&lt;/div&gt;
+  &lt;div class="active-6 lazy-7 columns"&gt;...&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="row"&gt;
-  &lt;div class="fat-6 columns"&gt;...&lt;/div&gt;
-  &lt;div class="fat-6 columns"&gt;...&lt;/div&gt;
+  &lt;div class="lazy-6 columns"&gt;...&lt;/div&gt;
+  &lt;div class="lazy-6 columns"&gt;...&lt;/div&gt;
 &lt;/div&gt;
           </pre>
           
           
-       <div class="fat-12 columns display">
+       <div class="lazy-12 columns display">
             <div class="row">    
           
-  <div class="skinny-2 fat-4 columns">skinny-2 fat-4</div>
-  <div class="skinny-4 fat-4 columns">skinny-4 fat-4</div>
-  <div class="skinny-6 fat-4 columns">skinny-6 fat-4</div>
+  <div class="active-2 lazy-4 columns">active-2 lazy-4</div>
+  <div class="active-4 lazy-4 columns">active-4 lazy-4</div>
+  <div class="active-6 lazy-4 columns">active-6 lazy-4</div>
 </div>
 <div class="row">
-  <div class="fat-3 columns">fat-3</div>
-  <div class="fat-6 columns">fat-6</div>
-  <div class="fat-3 columns">fat-3</div>
+  <div class="lazy-3 columns">lazy-3</div>
+  <div class="lazy-6 columns">lazy-6</div>
+  <div class="lazy-3 columns">lazy-3</div>
 </div>
 <div class="row">
-  <div class="skinny-6 fat-2 columns">skinny-6 fat-2</div>
-  <div class="skinny-6 fat-8 columns">skinny-6 fat-8</div>
-  <div class="skinny-12 fat-2 columns">skinny-12 fat-2</div>
+  <div class="active-6 lazy-2 columns">active-6 lazy-2</div>
+  <div class="active-6 lazy-8 columns">active-6 lazy-8</div>
+  <div class="active-12 lazy-2 columns">active-12 lazy-2</div>
 </div>
 <div class="row">
-  <div class="skinny-3 columns">skinny-3</div>
-  <div class="skinny-9 columns">skinny-9</div>
+  <div class="active-3 columns">active-3</div>
+  <div class="active-9 columns">active-9</div>
 </div>
 <div class="row">
-  <div class="fat-4 columns">fat-4</div>
-  <div class="fat-8 columns">fat-8</div>
+  <div class="lazy-4 columns">lazy-4</div>
+  <div class="lazy-8 columns">lazy-8</div>
 </div>
 <div class="row">
-  <div class="skinny-6 fat-5 columns">skinny-6 fat-5</div>
-  <div class="skinny-6 fat-7 columns">skinny-6 fat-7</div>
+  <div class="active-6 lazy-5 columns">active-6 lazy-5</div>
+  <div class="active-6 lazy-7 columns">active-6 lazy-7</div>
 </div>
 <div class="row">
-  <div class="fat-6 columns">fat-6</div>
-  <div class="fat-6 columns">fat-6</div>
+  <div class="lazy-6 columns">lazy-6</div>
+  <div class="lazy-6 columns">lazy-6</div>
 </div>
 </div>
 
@@ -230,37 +230,37 @@
           <pre class="prettyprint linenums">
           	
           	&lt;div class="row"&gt;
-  &lt;div class="skinny-8 columns"&gt;8
+  &lt;div class="active-8 columns"&gt;8
     &lt;div class="row"&gt;
-      &lt;div class="skinny-8 columns"&gt;8 Nested
+      &lt;div class="active-8 columns"&gt;8 Nested
         &lt;div class="row"&gt;
-          &lt;div class="skinny-8 columns"&gt;8 Nested Again&lt;/div&gt;
-          &lt;div class="skinny-4 columns"&gt;4&lt;/div&gt;
+          &lt;div class="active-8 columns"&gt;8 Nested Again&lt;/div&gt;
+          &lt;div class="active-4 columns"&gt;4&lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;
-      &lt;div class="skinny-4 columns"&gt;4&lt;/div&gt;
+      &lt;div class="active-4 columns"&gt;4&lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div class="skinny-4 columns"&gt;4&lt;/div&gt;
+  &lt;div class="active-4 columns"&gt;4&lt;/div&gt;
 &lt;/div&gt;
           	
           </pre>
           
           
-       <div class="fat-12 columns display">
+       <div class="lazy-12 columns display">
             <div class="row">
-  <div class="skinny-8 columns">Skinny-8
+  <div class="active-8 columns">active-8
     <div class="row">
-      <div class="skinny-8 columns">Skinny-8 Nested
+      <div class="active-8 columns">active-8 Nested
         <div class="row">
-          <div class="skinny-8 columns">skinny-8 Nested Again</div>
-          <div class="skinny-4 columns">skinny-4</div>
+          <div class="active-8 columns">active-8 Nested Again</div>
+          <div class="active-4 columns">active-4</div>
         </div>
       </div>
-      <div class="skinny-4 columns">skinny-4</div>
+      <div class="active-4 columns">active-4</div>
     </div>
   </div>
-  <div class="skinny-4 columns">skinny-4</div>
+  <div class="active-4 columns">active-4</div>
 </div>
 </div>
 
@@ -275,47 +275,47 @@
             <h1>Offsetting Portions of the Grid</h1>
           </div>
 
-         <p class="subheader">Offsets allow you to create additional space between columns in a row. Like the rest of the grid, they're nestable. You can use classes like <code> .fat-offset-1 </code> and <code>.skinny-offset-3</code> to manipulate your column positions in different ways. You can offset up to 11 since you wouldn't ever offset a full-width column.</p>
+         <p class="subheader">Offsets allow you to create additional space between columns in a row. Like the rest of the grid, they're nestable. You can use classes like <code> .lazy-offset-1 </code> and <code>.active-offset-3</code> to manipulate your column positions in different ways. You can offset up to 11 since you wouldn't ever offset a full-width column.</p>
           
           <pre class="prettyprint linenums">
           	
 		&lt;div class="row"&gt;
-  &lt;div class="fat-1 columns"&gt;1&lt;/div&gt;
-  &lt;div class="fat-11 columns"&gt;11&lt;/div&gt;
+  &lt;div class="lazy-1 columns"&gt;1&lt;/div&gt;
+  &lt;div class="lazy-11 columns"&gt;11&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="row"&gt;
-  &lt;div class="fat-1 columns"&gt;1&lt;/div&gt;
-  &lt;div class="fat-10 fat-offset-1 columns"&gt;10, offset 1&lt;/div&gt;
+  &lt;div class="lazy-1 columns"&gt;1&lt;/div&gt;
+  &lt;div class="lazy-10 lazy-offset-1 columns"&gt;10, offset 1&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="row"&gt;
-  &lt;div class="fat-1 columns"&gt;1&lt;/div&gt;
-  &lt;div class="fat-9 fat-offset-2 columns"&gt;9, offset 2&lt;/div&gt;
+  &lt;div class="lazy-1 columns"&gt;1&lt;/div&gt;
+  &lt;div class="lazy-9 lazy-offset-2 columns"&gt;9, offset 2&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="row"&gt;
-  &lt;div class="fat-1 columns"&gt;1&lt;/div&gt;
-  &lt;div class="fat-8 fat-offset-3 columns"&gt;8, offset 3&lt;/div&gt;
+  &lt;div class="lazy-1 columns"&gt;1&lt;/div&gt;
+  &lt;div class="lazy-8 lazy-offset-3 columns"&gt;8, offset 3&lt;/div&gt;
 &lt;/div&gt;          	
 
           </pre>
           
           
-       <div class="fat-12 columns display">
+       <div class="lazy-12 columns display">
        	
            <div class="row">
-  <div class="fat-1 columns">fat-1</div>
-  <div class="fat-11 columns">fat-11</div>
+  <div class="lazy-1 columns">lazy-1</div>
+  <div class="lazy-11 columns">lazy-11</div>
 </div>
 <div class="row">
-  <div class="fat-1 columns">fat-1</div>
-  <div class="fat-10 fat-offset-1 columns">fat-10, fat-offset-1</div>
+  <div class="lazy-1 columns">lazy-1</div>
+  <div class="lazy-10 lazy-offset-1 columns">lazy-10, lazy-offset-1</div>
 </div>
 <div class="row">
-  <div class="fat-1 columns">fat-1</div>
-  <div class="fat-9 fat-offset-2 columns">fat-9, fat-offset-2</div>
+  <div class="lazy-1 columns">lazy-1</div>
+  <div class="lazy-9 lazy-offset-2 columns">lazy-9, lazy-offset-2</div>
 </div>
 <div class="row">
-  <div class="fat-1 columns">fat-1</div>
-  <div class="fat-8 fat-offset-3 columns">fat-8, fat-offset-3</div>
+  <div class="lazy-1 columns">lazy-1</div>
+  <div class="lazy-8 lazy-offset-3 columns">lazy-8, lazy-offset-3</div>
 </div>
 </div>
 
@@ -330,21 +330,21 @@
             <h1>Offsetting Portions of the Grid</h1>
           </div>
 
-         <p class="subheader">Centered columns are placed in the middle of the row. This does not center their content, but centers the grid element, itself. This is accomplished by adding a class of <code> fat-centered </code> or <code> skinny-centered </code> depending on which breakpoint you want the columns to center on. skinny versions will carry through all breakpoints if not overridden by a fat version. You can center any number of columns you have. To have a column not carry it's <code> skinny-centered </code> to fat, add a class of <code>fat-uncentered.</code></p>
+         <p class="subheader">Centered columns are placed in the middle of the row. This does not center their content, but centers the grid element, itself. This is accomplished by adding a class of <code> lazy-centered </code> or <code> active-centered </code> depending on which breakpoint you want the columns to center on. active versions will carry through all breakpoints if not overridden by a lazy version. You can center any number of columns you have. To have a column not carry it's <code> active-centered </code> to lazy, add a class of <code>lazy-uncentered.</code></p>
           
           <pre class="prettyprint linenums">
           	
           	&lt;div class="row"&gt;
-  &lt;div class="skinny-3 skinny-centered columns"&gt;3 centered&lt;/div&gt;
+  &lt;div class="active-3 active-centered columns"&gt;3 centered&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="row"&gt;
-  &lt;div class="skinny-6 fat-centered columns"&gt;6 centered&lt;/div&gt;
+  &lt;div class="active-6 lazy-centered columns"&gt;6 centered&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="row"&gt;
-  &lt;div class="skinny-9 skinny-centered fat-uncentered columns"&gt;9 centered&lt;/div&gt;
+  &lt;div class="active-9 active-centered lazy-uncentered columns"&gt;9 centered&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="row"&gt;
-  &lt;div class="skinny-11 skinny-centered columns"&gt;11 centered&lt;/div&gt;
+  &lt;div class="active-11 active-centered columns"&gt;11 centered&lt;/div&gt;
 &lt;/div&gt;
           &lt;/div&gt;
           	
@@ -352,19 +352,19 @@
           </pre>
           
           
-       <div class="fat-12 columns display">
+       <div class="lazy-12 columns display">
        	
           <div class="row">
-  <div class="skinny-3 skinny-centered columns">3 centered</div>
+  <div class="active-3 active-centered columns">3 centered</div>
 </div>
 <div class="row">
-  <div class="skinny-6 fat-centered columns">6 centered</div>
+  <div class="active-6 lazy-centered columns">6 centered</div>
 </div>
 <div class="row">
-  <div class="skinny-9 skinny-centered fat-uncentered columns">9 centered</div>
+  <div class="active-9 active-centered lazy-uncentered columns">9 centered</div>
 </div>
 <div class="row">
-  <div class="skinny-11 skinny-centered columns">11 centered</div>
+  <div class="active-11 active-centered columns">11 centered</div>
 </div>  	
           
           </div>
@@ -383,16 +383,16 @@
           <pre class="prettyprint linenums">
           	
           	&lt;div class="row"&gt;
-  &lt;div class="skinny-3 skinny-centered columns"&gt;3 centered&lt;/div&gt;
+  &lt;div class="active-3 active-centered columns"&gt;3 centered&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="row"&gt;
-  &lt;div class="skinny-6 fat-centered columns"&gt;6 centered&lt;/div&gt;
+  &lt;div class="active-6 lazy-centered columns"&gt;6 centered&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="row"&gt;
-  &lt;div class="skinny-9 skinny-centered fat-uncentered columns"&gt;9 centered&lt;/div&gt;
+  &lt;div class="active-9 active-centered lazy-uncentered columns"&gt;9 centered&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="row"&gt;
-  &lt;div class="skinny-11 skinny-centered columns"&gt;11 centered&lt;/div&gt;
+  &lt;div class="active-11 active-centered columns"&gt;11 centered&lt;/div&gt;
 &lt;/div&gt;
           &lt;/div&gt;
           	
@@ -400,25 +400,63 @@
           </pre>
           
           
-       <div class="fat-12 columns display">
+       <div class="lazy-12 columns display">
        	
           <div class="row">
-  <div class="skinny-3 skinny-centered columns">3 centered</div>
+  <div class="active-3 active-centered columns">3 centered</div>
 </div>
 <div class="row">
-  <div class="skinny-6 fat-centered columns">6 centered</div>
+  <div class="active-6 lazy-centered columns">6 centered</div>
 </div>
 <div class="row">
-  <div class="skinny-9 skinny-centered fat-uncentered columns">9 centered</div>
+  <div class="active-9 active-centered lazy-uncentered columns">9 centered</div>
 </div>
 <div class="row">
-  <div class="skinny-11 skinny-centered columns">11 centered</div>
+  <div class="active-11 active-centered columns">11 centered</div>
 </div>  	
           
           </div>
           
         </section>
 
+ <!-- Small Grid
+        ================================================== -->
+        <section id="SmallGrid">
+          <div class="page-header">
+            <h1>Small Grid</h1>
+          </div>
+
+         <p class="subheader">As you've probably noticed in the examples above, you have access to a active and lazy grid. If you know that your grid structure will be the same for active devices as it will be on lazy devices, just use the active grid. You can override your active grid classes by adding lazy grid classes to it.</p>
+          
+          <pre class="prettyprint linenums">
+          	
+          	&lt;div class="row"&gt;
+  &lt;div class="active-2 columns"&gt;2&lt;/div&gt;
+  &lt;div class="active-10 columns"&gt;10, last&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="active-3 columns"&gt;3&lt;/div&gt;
+  &lt;div class="active-9 columns"&gt;9, last&lt;/div&gt;
+&lt;/div&gt;
+          	
+
+          </pre>
+          
+          
+       <div class="lazy-12 columns display">
+       	
+          <div class="row">
+  <div class="active-2 columns">2</div>
+  <div class="active-10 columns">10, last</div>
+</div>
+<div class="row">
+  <div class="active-3 columns">3</div>
+  <div class="active-9 columns">9, last</div>
+</div>
+          
+          </div>
+          
+        </section>
 
 
 
@@ -433,7 +471,7 @@
     ================================================== -->
     <footer class="footer">
       <div class="container">
-        <p>Designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
+        <p>Designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/lazy" target="_blank">@lazy</a>.</p>
         <p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
         <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
         <ul class="footer-links">
