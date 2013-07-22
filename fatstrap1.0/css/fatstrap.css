@@ -240,7 +240,7 @@ textarea {
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.9em;
+  font-size: 1em;
   line-height: 20px;
   color: #333333;
   background-color: #ffffff;
@@ -299,7 +299,10 @@ a:focus {
     padding-left: 0;
     padding-right: 0;
     float: left; }
-  .row .row {
+  
+  /*Think These might not be needed */
+  
+  /*.row .row {
     width: auto;
     margin-left: -0.9375em;
     margin-right: -0.9375em;
@@ -321,7 +324,7 @@ a:focus {
         content: " ";
         display: table; }
       .row .row.collapse:after {
-        clear: both; }
+        clear: both; }*/
 
 .column,
 .columns {

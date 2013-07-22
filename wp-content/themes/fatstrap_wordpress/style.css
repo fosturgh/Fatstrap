@@ -1,0 +1,23 @@
+/*   
+Theme Name: FatStrap for Wordpress 1.0
+Description: A responsive Template for Wordpress Built on Nailed it designs very own responsive framework
+Author: Adam Jackson	
+Author URI: http://www.naileditdesign.com
+Version: 1.0
+*/
+
+
+
+
+
+/* #images
+================================================== */
+
+img.alignright {float:right; margin:0 0 1em 1em;  height:auto; padding-bottom:10px;}
+img.alignleft {float:left; margin:0 1em 1em 0; border:none; height:auto;   }
+img.aligncenter {display: block; margin-left: auto; margin-right: auto; }
+img.alignnone { height:auto; }
+a img.alignright {float:right; margin:0 0 1em 1em; height:auto; padding-bottom:10px; }
+a img.alignleft {float:left; margin:0 1em 1em 0; border:none;  height:auto;  }
+a img.aligncenter {display: block;  margin-left: auto; margin-right: auto;   height:auto;}
+

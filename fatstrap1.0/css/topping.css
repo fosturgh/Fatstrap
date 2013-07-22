@@ -205,7 +205,7 @@ section > ul li {
 }
 
 /* Separators (hr) */
-.bs-docs-separator {
+.fs-add-separator {
   margin: 40px 0 39px;
 }
 
@@ -315,7 +315,7 @@ hr.soften {
   right: 0;
   bottom: 0;
   left: 0;
-  background: url(../img/bs-docs-masthead-pattern.png) repeat center center;
+  background: url(../img/fs-add-masthead-pattern.png) repeat center center;
   opacity: .4;
 }
 @media
@@ -359,7 +359,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 }
 
 /* Social proof buttons from GitHub & Twitter */
-.bs-docs-social {
+.fs-add-social {
   padding: 15px 0;
   text-align: center;
   background-color: #f5f5f5;
@@ -368,13 +368,13 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 }
 
 /* Quick links on Home */
-.bs-docs-social-buttons {
+.fs-add-social-buttons {
   margin-left: 0;
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
 }
-.bs-docs-social-buttons li {
+.fs-add-social-buttons li {
   display: inline-block;
   padding: 5px 8px;
   line-height: 1;
@@ -696,7 +696,7 @@ h2 + .row {
 -------------------------------------------------- */
 
 /* Base class */
-.bs-docs-example {
+.fs-add-example {
   position: relative;
   margin: 15px 0;
   padding: 39px 19px 14px;
@@ -709,7 +709,7 @@ h2 + .row {
 }
 
 /* Echo out a label for the example */
-.bs-docs-example:after {
+.fs-add-example:after {
   content: "Example";
   position: absolute;
   top: -1px;
@@ -726,28 +726,28 @@ h2 + .row {
 }
 
 /* Remove spacing between an example and it's code */
-.bs-docs-example + .prettyprint {
+.fs-add-example + .prettyprint {
   margin-top: -20px;
   padding-top: 15px;
 }
 
 /* Tweak examples
 ------------------------- */
-.bs-docs-example > p:last-child {
+.fs-add-example > p:last-child {
   margin-bottom: 0;
 }
-.bs-docs-example .table,
-.bs-docs-example .progress,
-.bs-docs-example .well,
-.bs-docs-example .alert,
-.bs-docs-example .hero-unit,
-.bs-docs-example .pagination,
-.bs-docs-example .navbar,
-.bs-docs-example > .nav,
-.bs-docs-example blockquote {
+.fs-add-example .table,
+.fs-add-example .progress,
+.fs-add-example .well,
+.fs-add-example .alert,
+.fs-add-example .hero-unit,
+.fs-add-example .pagination,
+.fs-add-example .navbar,
+.fs-add-example > .nav,
+.fs-add-example blockquote {
   margin-bottom: 5px;
 }
-.bs-docs-example .pagination {
+.fs-add-example .pagination {
   margin-top: 0;
 }
 .bs-navbar-top-example,
@@ -782,33 +782,33 @@ h2 + .row {
 .bs-navbar-bottom-example .navbar {
   margin-bottom: 0;
 }
-form.bs-docs-example {
+form.fs-add-example {
   padding-bottom: 19px;
 }
 
 /* Images */
-.bs-docs-example-images img {
+.fs-add-example-images img {
   margin: 10px;
   display: inline-block;
 }
 
 /* Tooltips */
-.bs-docs-tooltip-examples {
+.fs-add-tooltip-examples {
   text-align: center;
   margin: 0 0 10px;
   list-style: none;
 }
-.bs-docs-tooltip-examples li {
+.fs-add-tooltip-examples li {
   display: inline;
   padding: 0 10px;
 }
 
 /* Popovers */
-.bs-docs-example-popover {
+.fs-add-example-popover {
   padding-bottom: 24px;
   background-color: #f9f9f9;
 }
-.bs-docs-example-popover .popover {
+.fs-add-example-popover .popover {
   position: relative;
   display: block;
   float: left;
@@ -817,14 +817,14 @@ form.bs-docs-example {
 }
 
 /* Dropdowns */
-.bs-docs-example-submenus {
+.fs-add-example-submenus {
   min-height: 180px;
 }
-.bs-docs-example-submenus > .pull-left + .pull-left {
+.fs-add-example-submenus > .pull-left + .pull-left {
   margin-left: 20px;
 }
-.bs-docs-example-submenus .dropup > .dropdown-menu,
-.bs-docs-example-submenus .dropdown > .dropdown-menu {
+.fs-add-example-submenus .dropup > .dropdown-menu,
+.fs-add-example-submenus .dropdown > .dropdown-menu {
   display: block;
   position: static;
   margin-bottom: 5px;
@@ -905,7 +905,7 @@ form.bs-docs-example {
 /* Sidenav for Docs
 -------------------------------------------------- */
 
-.bs-docs-sidenav {
+.fs-add-sidenav {
  
   margin: 30px 0 0;
   padding: 0;
@@ -917,25 +917,25 @@ form.bs-docs-example {
      -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
           box-shadow: 0 1px 4px rgba(0,0,0,.065);
 }
-.bs-docs-sidenav > li > a {
+.fs-add-sidenav > li > a {
   display: block;
 
   margin: 0 0 -1px;
   padding: 8px 14px;
   border: 1px solid #e5e5e5;
 }
-.bs-docs-sidenav > li:first-child > a {
+.fs-add-sidenav > li:first-child > a {
   -webkit-border-radius: 6px 6px 0 0;
      -moz-border-radius: 6px 6px 0 0;
           border-radius: 6px 6px 0 0;
 }
-.bs-docs-sidenav > li:last-child > a {
+.fs-add-sidenav > li:last-child > a {
   -webkit-border-radius: 0 0 6px 6px;
      -moz-border-radius: 0 0 6px 6px;
           border-radius: 0 0 6px 6px;
 }
 
-.bs-docs-sidenav > .active > a {
+.fs-add-sidenav > .active > a {
   position: relative;
   z-index: 2;
   padding: 9px 15px;
@@ -946,28 +946,28 @@ form.bs-docs-example {
           box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
 }
 /* Chevrons */
-.bs-docs-sidenav .icon-chevron-right {
+.fs-add-sidenav .icon-chevron-right {
   float: right;
   margin-top: 2px;
   margin-right: -6px;
   opacity: .25;
 }
-.bs-docs-sidenav > li > a:hover {
+.fs-add-sidenav > li > a:hover {
   background-color: #f5f5f5;
 }
-.bs-docs-sidenav a:hover .icon-chevron-right {
+.fs-add-sidenav a:hover .icon-chevron-right {
   opacity: .5;
 }
-.bs-docs-sidenav .active .icon-chevron-right,
-.bs-docs-sidenav .active a:hover .icon-chevron-right {
+.fs-add-sidenav .active .icon-chevron-right,
+.fs-add-sidenav .active a:hover .icon-chevron-right {
   background-image: url(../img/glyphicons-halflings-white.png);
   opacity: 1;
 }
-.bs-docs-sidenav.affix {
+.fs-add-sidenav.affix {
   top: 40px;
   width:198px;
 }
-.bs-docs-sidenav.affix-bottom {
+.fs-add-sidenav.affix-bottom {
   position: absolute;
   top: auto;
   bottom: 270px;
@@ -999,7 +999,7 @@ form.bs-docs-example {
   }
 
   /* When affixed, space properly */
-  .bs-docs-sidenav {
+  .fs-add-sidenav {
     top: 0;
     width: 218px;
     margin-top: 30px;
@@ -1019,11 +1019,11 @@ form.bs-docs-example {
     margin-top: -20px; /* Offset bottom margin on .navbar */
   }
   /* Adjust sidenav width */
-  .bs-docs-sidenav {
+  .fs-add-sidenav {
     width: 166px;
     margin-top: 20px;
   }
-  .bs-docs-sidenav.affix {
+  .fs-add-sidenav.affix {
     top: 0;
     width: 166px;
     margin-top: 20px;
@@ -1055,7 +1055,7 @@ form.bs-docs-example {
   .marketing .span4 {
     margin-bottom: 40px;
   }
-  .bs-docs-social {
+  .fs-add-social {
     margin: 0 -20px;
   }
 
@@ -1065,11 +1065,11 @@ form.bs-docs-example {
   }
 
   /* Sidenav */
-  .bs-docs-sidenav {
+  .fs-add-sidenav {
     width: auto;
     margin-bottom: 20px;
   }
-  .bs-docs-sidenav.affix {
+  .fs-add-sidenav.affix {
     position: static;
     width: auto;
     top: 0;
@@ -1148,19 +1148,19 @@ form.bs-docs-example {
   }
 
   /* Examples: dropdowns */
-  .bs-docs-example-submenus > .pull-left {
+  .fs-add-example-submenus > .pull-left {
     float: none;
     clear: both;
   }
-  .bs-docs-example-submenus > .pull-left,
-  .bs-docs-example-submenus > .pull-left + .pull-left {
+  .fs-add-example-submenus > .pull-left,
+  .fs-add-example-submenus > .pull-left + .pull-left {
     margin-left: 0;
   }
-  .bs-docs-example-submenus p {
+  .fs-add-example-submenus p {
     margin-bottom: 0;
   }
-  .bs-docs-example-submenus .dropup > .dropdown-menu,
-  .bs-docs-example-submenus .dropdown > .dropdown-menu {
+  .fs-add-example-submenus .dropup > .dropdown-menu,
+  .fs-add-example-submenus .dropdown > .dropdown-menu {
     margin-bottom: 10px;
     float: none;
     max-width: 180px;
